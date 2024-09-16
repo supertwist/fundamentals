@@ -1,5 +1,4 @@
 # GAI tools
----
 *Local - processing is happening on your computer*
 
 ### Diffusion Bee
@@ -88,4 +87,4 @@ https://www.meshy.ai
 ### Runway.ml
 https://runwayml.com
 - built for creatives, lots of tools including one of the best txt2video systems currently available
-paid plan starts at 625 credits for $15/month
+- paid plan starts at 625 credits for $15/month
