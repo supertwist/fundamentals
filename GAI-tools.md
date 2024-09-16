@@ -2,18 +2,18 @@
 ---
 *Local - processing is happening on your computer*
 
-## Diffusion Bee
+### Diffusion Bee
 https://diffusionbee.com
 - is a desktop app
 - uses diffusion models
 
-## Mochi Diffusion
+### Mochi Diffusion
 https://github.com/MochiDiffusion/MochiDiffusion
 - is a desktop app
 - uses diffusion models
 - *noteworthy, uses CoreML models so that it can run natively on MacOS: https://huggingface.co/coreml-community#models
 
-## invokeAI
+### invokeAI
 https://github.com/invoke-ai
 - launches a web server from terminal, browser app
 - uses diffusion models
@@ -21,7 +21,7 @@ https://github.com/invoke-ai
 - easy to identify and download models
 - installation and interface are more polished than ComfyUI
 
-## ComfyUI
+### ComfyUI
 https://github.com/comfyanonymous/ComfyUI
 - launches a web server from terminal, browser app
 - uses diffusion models
@@ -41,7 +41,7 @@ eventually we hope to grant access via single sign-on (SSO); for now you’ll ne
 - contact James so he can alert the HPC team
 - ALSO: you must use GlobalConnect VPN to access: https://it.gwu.edu/vpn-global-protect
 
-## Automatic1111
+### Automatic1111
 http://[2606:69c0:9120:7865:262:bff:fea0:ac26]:7860/
 - good txt2img capabilities
 - rudimentary txt2video capabilities
@@ -57,12 +57,12 @@ https://hades.arc.gwu.edu
 ---
 *Web apps usually paid services with a limited number of free credits per month]*
 
-## Copilot
+### Copilot
 https://it.gwu.edu/microsoft-copilot
 - free to GW students
 - text and txt2img
 
-## OpenAI ChatGPT
+### OpenAI ChatGPT
 https://openai.com/chatgpt
 - uses transformer models
 - has desktop app now
@@ -70,22 +70,22 @@ https://openai.com/chatgpt
 - GPT Plus (paid version) = $20/month
 - API (allows other apps like ZED to access) is inexpensive
 
-## Stable Audio 2.0
+### Stable Audio 2.0
 https://stableaudio.com
 - Free subscription allow you to create 20 3-minute tracks per month!
 - Overview here: https://stability.ai/news/stable-audio-2-0
 
-## Midjourney
+### Midjourney
 https://www.midjourney.com/home
 
-## Meshy.ai
+### Meshy.ai
 https://www.meshy.ai
 - txt23D tool
 - free account = 200 credits per month
 - free to GW students
 - text and txt2img
 
-## Runway.ml
+### Runway.ml
 https://runwayml.com
 - built for creatives, lots of tools including one of the best txt2video systems currently available
 paid plan starts at 625 credits for $15/month
