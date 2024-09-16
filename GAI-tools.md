@@ -31,15 +31,15 @@ https://github.com/comfyanonymous/ComfyUI
 *Web apps running on the High Performance Computing server:*
 
 eventually we hope to grant access via single sign-on (SSO); for now you’ll need to be added to the CSAD research group:
-Access to the GAI on the University server:
-https://hpc.gwu.edu/getting-access/
-principal investigator = James Huckenpahler
-research group = huckenpahlergrp
-school = Corcoran School of Arts and Design
-cluster = Pegasus
-public key file: 123
-contact James so he can alert the HPC team
-ALSO: you must use GlobalConnect VPN to access: https://it.gwu.edu/vpn-global-protect
+- Access to the GAI on the University server:
+- https://hpc.gwu.edu/getting-access/
+- principal investigator = James Huckenpahler
+- research group = huckenpahlergrp
+- school = Corcoran School of Arts and Design
+- cluster = Pegasus
+- public key file: 123
+- contact James so he can alert the HPC team
+- ALSO: you must use GlobalConnect VPN to access: https://it.gwu.edu/vpn-global-protect
 
 ## Automatic1111
 http://[2606:69c0:9120:7865:262:bff:fea0:ac26]:7860/
