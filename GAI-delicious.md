@@ -21,3 +21,6 @@ Quick summary of **15 Stable Diffusion models:** https://openaijourney.com/best-
 
 ---
 Call for **transparency** to companies developing AI, and protections for whistleblowers: https://righttowarn.ai/
+
+---
+WashPo article on the Refik Anadol **data sculpture** at the Kennedy Center: https://www.washingtonpost.com/dc-md-va/2024/09/11/refik-anadol-dvorak-dreams-kennedy-center/
