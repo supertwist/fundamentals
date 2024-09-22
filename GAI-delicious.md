@@ -24,3 +24,6 @@ Call for **transparency** to companies developing AI, and protections for whistl
 
 ---
 WashPo article on the Refik Anadol **data sculpture** at the Kennedy Center: https://www.washingtonpost.com/dc-md-va/2024/09/11/refik-anadol-dvorak-dreams-kennedy-center/
+
+---
+Tool for collaboration and version control of code (or ANYTHING that can exist as a text file) GIT and GitHub for **Poets**, from the excellent Coding Train web site: https://thecodingtrain.com/tracks/git-and-github-for-poets
