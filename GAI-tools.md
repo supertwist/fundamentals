@@ -77,7 +77,7 @@ https://stableaudio.com
 ### Midjourney
 https://www.midjourney.com/home
 - starts at $8/month
-- does not generate video, though you can output a video of the diffusion steps in sequence
+- does not generate video, though you can output a video of the diffusion steps in sequence: https://docs.midjourney.com/docs/video
 
 ### Meshy.ai
 https://www.meshy.ai
