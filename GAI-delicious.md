@@ -27,3 +27,6 @@ WashPo article on the Refik Anadol **data sculpture** at the Kennedy Center: htt
 
 ---
 Tool for collaboration and version control of code (or ANYTHING that can exist as a text file) GIT and GitHub for **Poets**, from the excellent Coding Train web site: https://thecodingtrain.com/tracks/git-and-github-for-poets
+
+---
+What is a **1.58-bit** LLM??? https://medium.com/@arunnanda/understanding-1-58-bit-large-language-models-88373010974a
