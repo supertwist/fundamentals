@@ -30,3 +30,6 @@ Tool for collaboration and version control of code (or ANYTHING that can exist a
 
 ---
 What is a **1.58-bit** LLM??? https://medium.com/@arunnanda/understanding-1-58-bit-large-language-models-88373010974a
+
+---
+github repo for **deforum studio** web app with extensive documentation: https://deforum.github.io/
