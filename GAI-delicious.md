@@ -33,3 +33,12 @@ What is a **1.58-bit** LLM??? https://medium.com/@arunnanda/understanding-1-58-b
 
 ---
 github repo for **deforum studio** web app with extensive documentation: https://deforum.github.io/
+
+---
+Summary of **ModelScope**: https://modelscope.cn/models/iic/text-to-video-synthesis/summary
+
+---
+**Fine-tuning** ModelScope: https://github.com/ExponentialML/Text-To-Video-Finetuning
+
+---
+**musicgen**, meta's txt2music model: https://github.com/facebookresearch/audiocraft/blob/main/docs/MUSICGEN.md

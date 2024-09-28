@@ -74,6 +74,10 @@ https://stableaudio.com
 - Free subscription allow you to create 20 3-minute tracks per month!
 - Overview here: https://stability.ai/news/stable-audio-2-0
 
+### MusicGen
+https://huggingface.co/spaces/facebook/MusicGen
+- free demo
+
 ### Midjourney
 https://www.midjourney.com/home
 - starts at $8/month
