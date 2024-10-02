@@ -42,3 +42,9 @@ Summary of **ModelScope**: https://modelscope.cn/models/iic/text-to-video-synthe
 
 ---
 **musicgen**, meta's txt2music model: https://github.com/facebookresearch/audiocraft/blob/main/docs/MUSICGEN.md
+
+---
+Intro to Stable Diffusion **LORAs**: https://civitai.com/articles/2099/lora-models-and-how-to-use-them-with-stable-diffusion-by-thinkdiffusion
+
+---
+**EasyAnimate**: https://github.com/aigc-apps/EasyAnimate/
