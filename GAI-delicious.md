@@ -48,3 +48,9 @@ Intro to Stable Diffusion **LORAs**: https://civitai.com/articles/2099/lora-mode
 
 ---
 **EasyAnimate**: https://github.com/aigc-apps/EasyAnimate/
+
+---
+**openSora**: https://github.com/hpcaitech/Open-Sora
+
+---
+best instructions for installing **ComfyUI** that I have seen: https://medium.com/@tchpnk/comfyui-on-apple-silicon-from-scratch-2024-58def01a3319
