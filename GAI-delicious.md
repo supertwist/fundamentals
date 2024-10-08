@@ -48,6 +48,7 @@ Intro to Stable Diffusion **LORAs**: https://civitai.com/articles/2099/lora-mode
 
 ---
 **EasyAnimate**: https://github.com/aigc-apps/EasyAnimate/
+**models** for EasyAnimate: https://comfy.icu/extension/chaojie__ComfyUI-EasyAnimate
 
 ---
 **openSora**: https://github.com/hpcaitech/Open-Sora
