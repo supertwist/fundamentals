@@ -5,8 +5,7 @@ a suite of classes that prepares creatives to use GenAI tools in an informed and
 ## 4 semester-long classes
 Idea: rather than one teacher per class of 15 students, two teachers for a class of 30+ students: team teaching with one faculty from 'arts' background + one faculty from a CS/mathematics background (Glen?)
 
-### 1
-### Under the Hood Lectures:
+### 1 - Under the Hood Lectures:
 from mathematicians/cs that walks through
 - glossary: introduce terms/concepts
 - bestiary: survey types of genAI systems
@@ -15,16 +14,27 @@ from mathematicians/cs that walks through
 - introduce tool sets, local and online, compare exposed parameters
 - an assignment: run run a prompt against 4 GAIs
 
-### 2
-### The School Board Seminar:
+### 2 - The School Board Seminar:
+- how do we teach (train) our AI children?
 - survey existing training sets
+- build small training sets: what kinds of results do we get? can we go beyond style
 - an assignment: run a prompt against 4 GAIs with known, different training sets. Print and analyse the results
+- philosophy component in the readings?
+- problems of antropomorphism/anthropocentrism
 
-### 3
-## GenAi manifest in the material world
+### 3 - GenAi manifest in the material world
+using GAI tools to design/build things
+- laser/vinyl cutting (GAI to create vectors)
+- 3D printing (GAI to create meshes - possibly to solid models? Fusion 360?)
+- basic: printing/large format printing (just to get sketches out)
+- using GenAI as a research/idea generation/sketching tool for traditional media
 
 ### 4
 ## GenAI to build novel workflows that support creative tasks.
+- ComfyUI and Python notebooks to customize creation workflows?
+- GenAI and interaction?
+- GenAI to do your bookkeeping?
+- GenAI to build your web site?
 
 ---
 ## James' roadmap for RTS
