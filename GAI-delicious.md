@@ -58,23 +58,3 @@ NYT opinion piece on **voice cloning**: https://www.nytimes.com/2024/10/10/opini
 
 ---
 NYT **primer** on disabling common A.I.: https://nytimes.com/2024/10/09/technology/personaltech/turn-off-ai-overviews-google-meta.html
-
----
-**MusicGen**, meta's txt2music model: https://github.com/facebookresearch/audiocraft/blob/main/docs/MUSICGEN.md
-
-how to local install **MusicGen** on MAC: https://medium.com/@woyera/how-to-install-and-run-facebook-audiocrafts-musicgen-locally-297f053a4fdc
-
-guide to **MusicGen** in colab: https://vidyabhandary.github.io/blog/gpt,/ai,/text-to-music/prompts/2023/06/16/ComposerQuill.html
-
-what was **MusicGen** trained on?
-+ https://music3point0.com/2023/06/14/metas-musicgen-trained-on-20000-hours-of-licensed-music-but-is-it-any-good/
-+ and another article: https://musically.com/2023/06/12/metas-new-musicgen-ai-was-trained-on-20k-hours-of-licensed-music/
-+ and the source is paper from the creators of MusicGen: https://arxiv.org/pdf/2306.05284
-
-**MusicGen** page on HuggingFace: https://huggingface.co/facebook/musicgen-large
-and the GitHub repo is here: https://github.com/facebookresearch/audiocraft
-
-Competitor to MusicGen is **MusicLM**: https://musiclm.com/
-MusicLM on GitHub: https://google-research.github.io/seanet/musiclm/examples/
-Info on the training data: https://www.kaggle.com/datasets/googleai/musiccaps
-test implementation: https://aitestkitchen.withgoogle.com/tools/music-fx
