@@ -28,3 +28,7 @@
 During the generation process, the output of the MusicGen model is evaluated by the classifier, and the generator is encouraged to produce music that aligns with the desired characteristics or style. This approach empowers users with more precise control over the generated music, enabling them to specify certain attributes they want MusicGen to capture. The incorporation of Classifier-Free Guidance enhances the versatility and adaptability of the music generation process."
 
 + James H research: how to train a classifier network; data sources? how much data needed? can this be done with 10 labeled samples?
++ possibly this: https://musicgenai.org/musicgen-fine-tune/
+
+---
+**Model** explainer: https://musicgenai.org/musicgen-models/
