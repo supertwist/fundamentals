@@ -28,10 +28,18 @@
 During the generation process, the output of the MusicGen model is evaluated by the classifier, and the generator is encouraged to produce music that aligns with the desired characteristics or style. This approach empowers users with more precise control over the generated music, enabling them to specify certain attributes they want MusicGen to capture. The incorporation of Classifier-Free Guidance enhances the versatility and adaptability of the music generation process."
 
 + James H research: how to train a classifier network; data sources? how much data needed? can this be done with 10 labeled samples?
+
+"With just 9-10 tracks, you can fine-tune MusicGen to emulate your chosen musical style. Ensure each track exceeds 30 seconds, and the training script will seamlessly handle the rest, automatically dividing lengthy audio files into 30-second chunks."
+
 + possibly this: https://musicgenai.org/musicgen-fine-tune/
++ possibly this: https://github.com/chavinlo/musicgen_trainer (broken and no longer maintained)
 
 ---
 **Model** explainer: https://musicgenai.org/musicgen-models/
+
++ what is a transformer?
++ what are codebooks?
++ define overfitting
 
 ---
 ## more resources
@@ -56,3 +64,5 @@ Info on the training data: https://www.kaggle.com/datasets/googleai/musiccaps
 test implementation: https://aitestkitchen.withgoogle.com/tools/music-fx
 
 **Holly Herndon and Matt Dryhurst** reviewed on eflux: https://www.e-flux.com/criticism/641034/holly-herndon-and-mat-dryhurst-s-the-call
+
+**interdependence** podcast from Herndon and Dryhurst: https://interdependence.fm/
