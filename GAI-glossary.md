@@ -91,8 +91,62 @@
 
 **Tokenization** - The process of splitting text into smaller units, or tokens, for a model to process.
 
+---
 **Transformer** - A neural network architecture designed for handling sequential data, like language, using self-attention mechanisms. Popular for text generation tasks.
 
+Transformers are a type of neural network architecture that excels at processing sequential data, like text, by focusing on relationships within the data rather than processing it one step at a time, as recurrent neural networks (RNNs) do. Developed in 2017 by researchers at Google Brain, the transformer architecture introduced a breakthrough in handling long-range dependencies and understanding context, making it foundational for many modern language models, including BERT, GPT, and T5.
+
+Here’s a breakdown of the key concepts and processes that make transformers work:
+
+1. Self-Attention Mechanism
+
+*	Central to the transformer is the self-attention mechanism, which allows each word (or token) in a sequence to “pay attention” to every other word, weighing their importance relative to the current word.
+* This is crucial because it helps the model understand context more accurately. For example, in the sentence “The cat sat on the mat, and it was soft,” the self-attention mechanism helps the model understand that “it” refers to “the mat,” not “the cat.”
+* Self-attention calculates three vectors for each word: Query, Key, and Value. By calculating the similarity between the Query of one word and the Key of another, the model determines how much attention to give to other words and produces a weighted sum of their Values. This weighted sum helps the model grasp relationships and dependencies in the data.
+
+2. Positional Encoding
+
+* Transformers don’t process tokens sequentially. To help the model understand the order of words (important for natural language understanding), transformers use positional encoding. Positional encodings are added to each token’s embedding, so the model knows whether a word appears first, last, or somewhere in between in a sequence.
+* Positional encodings allow transformers to make sense of word order even without traditional sequence-based processing, making them more effective at capturing global context.
+
+3. Multi-Head Attention
+
+* Self-attention in transformers is divided into multiple attention heads (multi-head attention). Each head performs its own self-attention calculation on the input sequence, allowing the model to focus on different aspects of the sequence in parallel.
+* For instance, one head might focus on relationships related to subject-verb agreement, while another might focus on object relationships. By combining the outputs from each head, the transformer gains a richer understanding of context and relationships across the sequence.
+
+4. Encoder-Decoder Structure
+
+* The transformer model is structured in layers, with each layer containing both self-attention and feed-forward neural networks. It is typically divided into encoder and decoder components:
+* The encoder layers process the input data, learning internal representations that capture the input sequence’s contextual meanings.
+* The decoder layers generate output sequences (e.g., a translation or response) based on the encoder’s output. Each decoder layer also includes attention mechanisms that allow it to focus on relevant parts of the encoded input sequence.
+* For tasks like translation or summarization, the encoder processes the input sentence while the decoder generates the output sentence, one token at a time.
+
+5. Feed-Forward Networks and Layer Normalization
+
+* Each transformer layer also contains a feed-forward neural network applied to each token individually and identically. This network further processes the token representations learned by self-attention.
+* To help the network train efficiently, transformers use layer normalization after each attention and feed-forward sub-layer, normalizing outputs to make learning more stable and prevent issues from exploding or vanishing gradients.
+
+6. Parallelization and Scalability
+
+* Unlike RNNs that process sequences step-by-step, transformers process the entire sequence simultaneously, making them highly parallelizable and more computationally efficient. This enables them to scale well on powerful hardware like GPUs and TPUs.
+* This parallelism allows transformers to handle much longer input sequences than previous models, significantly boosting performance on long-text understanding, generation, and summarization.
+
+7. Training and Transfer Learning
+
+* Transformers are typically trained on massive datasets in an unsupervised manner, using techniques like masked language modeling (e.g., BERT) or autoregressive training (e.g., GPT).
+* After this pre-training, transformers can be fine-tuned on smaller, task-specific datasets for applications like question answering, translation, or chatbots. This transfer learning capability makes transformers highly versatile.
+
+Applications of Transformers
+
+Transformers have become foundational in natural language processing (NLP), powering applications like:
+* Language Translation (e.g., Google Translate uses transformer models for accurate translations),
+* Text Summarization (transformers can condense information from long documents),
+* Question Answering (by understanding context to answer questions accurately),
+* Text Generation (generating coherent, contextually relevant responses in chatbots and virtual assistants).
+
+Transformers revolutionized how we handle sequential data, especially text, by focusing on attention mechanisms over traditional sequence-based processing. This design has led to significant advancements in generative AI, enabling models that produce increasingly realistic and contextually relevant outputs.
+
+---
 # V
 **Variational Autoencoder (VAE)** - A generative model that encodes data to a lower-dimensional space and decodes it, allowing the generation of new data instances that resemble the training data.
 
