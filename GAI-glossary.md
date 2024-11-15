@@ -30,7 +30,13 @@
 3.	Post-Processing Bias Filters: After generating content, the AI’s output can be analyzed using bias detection tools or filters that flag potentially biased or harmful responses. These filters can either modify or reject biased outputs, ensuring that the final result aligns with fairness and inclusivity standards.
 
 # C
-**Context Window** - The length of text or input data a model can process at once, affecting its performance on tasks with long inputs.
+**Context Window** - The context window in generative AI refers to the maximum amount of text or data that a model can process at once when generating or analyzing content. Essentially, it defines how much information the model can “see” in a single pass, which affects its ability to understand and produce coherent responses based on previous parts of the text. For instance, if a model has a context window of 4,000 tokens, it can only consider the last 4,000 tokens as context for any response. A smaller context window limits the model’s ability to maintain consistency over long pieces of text, while a larger context window allows it to handle complex, multi-turn dialogues or lengthy documents without losing track of relevant details. Increasing the context window enhances the model’s performance on tasks requiring extensive contextual understanding, such as summarizing long articles or engaging in extended conversations.
+
+The context window size and the prompt size are related but not the same. The context window size is the maximum amount of tokens (words, subwords, or characters) that the model can consider at once, including both the prompt (input from the user) and any generated output within a single interaction.
+
+The prompt size, on the other hand, refers specifically to the portion of the context window taken up by the input text or instructions provided by the user. For example, if a model has a context window of 8,192 tokens and a prompt uses 3,000 tokens, then the model has 5,192 tokens left for generating responses. When the prompt and responses exceed the context window limit, the oldest parts of the conversation are typically removed or “forgotten” to make room for new content.
+
+*Note: I asked ChatGPT 4o what its prompt size is... it could not disclose!*
 
 # D
 **Data Augmentation** - Techniques for increasing the diversity of a training dataset by modifying data in various ways, such as flipping images or altering text.
@@ -72,6 +78,8 @@
 
 # I
 **Inpainting** - A technique where a model fills in missing parts of an image or text based on surrounding content. (see Outpainting)
+
+Inpainting remains coherent with the rest of the image by using contextual information from surrounding pixels to generate new content that blends seamlessly with existing elements. During inpainting, the model analyzes the textures, colors, shapes, and edges in the areas adjacent to the missing or masked region. By learning these patterns, the model can predict and generate details that fit naturally into the scene, maintaining visual continuity. Advanced inpainting models, like those based on diffusion or GANs, are specifically trained to understand context and recognize common patterns within an image, enabling them to produce realistic and coherent extensions that align with the original style and content of the image.
 
 # L
 **Large Language Model (LLM)** - A model trained on vast amounts of text data, enabling it to generate human-like language and understand context. Examples include GPT, BERT, and T5.
@@ -123,10 +131,14 @@ In total, a node will have  n + 1  parameters. For example, if there are 5 conne
 # S
 **Sampling** - The process of generating new data points by selecting from a probability distribution produced by a generative model.
 
+**Seed** - In generative AI, a seed is an initial input value used to set or control the randomness of the model’s output. Seeds ensure reproducibility, meaning that if the same model, prompt, and seed are used, the model will produce identical results each time. This is particularly useful in creative tasks, such as image generation or story generation, where consistency might be desired across multiple runs. By changing the seed, users can influence the model to generate different variations, allowing exploration of diverse outputs from the same input prompt. In essence, the seed acts as a starting point for random sampling, enabling both controlled experimentation and creative variability in AI-generated content.
+
+*Using the same seed, but altering other parameters by increments, is a useful method for uderstanding the impact of changes in other parameters.*
+
 **Self-Attention** - A mechanism where each part of an input sequence interacts with all other parts to understand dependencies, used widely in transformers. (see Transformer.)
 
 # T
-**Temperature** - A parameter controlling the randomness of a model’s predictions, with higher values increasing creativity but lowering coherence.
+**Temperature** - In the context of generative AI, temperature is a parameter that controls the randomness and creativity of the model’s responses. Lower temperature values (close to 0) make the model more deterministic and focused, often leading to precise and conservative outputs as it favors the most probable or predictable choices. Higher temperature values (approaching 1 or above) introduce more randomness, enabling the model to explore a wider range of possible words or phrases, which can lead to more creative, varied, or unexpected responses. For example, a higher temperature might be used for tasks requiring originality, like storytelling, while a lower temperature might be preferred for factual tasks, like answering technical questions. Adjusting temperature helps tailor the model’s behavior to suit different use cases, balancing between coherence and creativity.
 
 **Token** - A token is a unit of data, such as a word, subword, or character, that a model processes individually. In natural language processing, tokens are created by breaking down text into smaller, manageable parts, enabling the model to analyze and generate language effectively. Tokenization converts text into a sequence of tokens, each with a unique identifier, allowing the model to understand and work with language systematically.
 
