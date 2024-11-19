@@ -94,3 +94,7 @@ https://www.meshy.ai
 https://runwayml.com
 - built for creatives, lots of tools including one of the best txt2video systems currently available
 - paid plan starts at 625 credits for $12/month
+
+### Hailuoai
+https://hailuoai.video/
+- text2video and img2video
