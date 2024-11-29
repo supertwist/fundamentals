@@ -58,3 +58,12 @@ NYT opinion piece on **voice cloning**: https://www.nytimes.com/2024/10/10/opini
 
 ---
 NYT **primer** on disabling common A.I.: https://nytimes.com/2024/10/09/technology/personaltech/turn-off-ai-overviews-google-meta.html
+
+---
+Enormous GenAI **product tracker**: https://sr.ithaka.org/our-work/generative-ai-product-tracker/
+
+---
+**Georgetown's** offerings: https://guides.library.georgetown.edu/ai/tools
+
+---
+**Comprehensive list** of GenAI tools in Adobe Creative Cloud apps: https://www.adobe.com/ai/overview/features.html
