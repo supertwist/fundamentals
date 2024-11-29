@@ -68,3 +68,4 @@ Enormous GenAI **product tracker**: https://sr.ithaka.org/our-work/generative-ai
 ---
 **Comprehensive list** of GenAI tools in Adobe Creative Cloud apps: https://www.adobe.com/ai/overview/features.html
 And, Adobe **Firefly**: https://www.adobe.com/products/firefly.html
+Specifics on GenAI in **Premiere**: https://www.adobe.com/products/premiere/ai-video-editing.html
