@@ -92,3 +92,8 @@ On GITHub: https://fugatto.github.io/
 
 ---
 Great resource for example **ComfyUI workflows**: https://comfyanonymous.github.io/ComfyUI_examples/
+
+---
+**Mochi** model: https://www.genmo.ai/blog
+on GitHub: https://github.com/genmoai/mochi
+for ComfyUI: https://comfyanonymous.github.io/ComfyUI_examples/mochi/
