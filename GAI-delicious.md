@@ -69,3 +69,26 @@ Enormous GenAI **product tracker**: https://sr.ithaka.org/our-work/generative-ai
 **Comprehensive list** of GenAI tools in Adobe Creative Cloud apps: https://www.adobe.com/ai/overview/features.html
 And, Adobe **Firefly**: https://www.adobe.com/products/firefly.html
 Specifics on GenAI in **Premiere**: https://www.adobe.com/products/premiere/ai-video-editing.html
+
+---
+Microsoft Office 365 **Copilot** GAI features: https://blogs.microsoft.com/blog/2023/03/16/introducing-microsoft-365-copilot-your-copilot-for-work/
+and: https://www.microsoft.com/en-us/microsoft-365/copilot#keyfeatures
+
+---
+Google Workspace **Gemini** GAI features: https://workspace.google.com/blog/product-announcements/generative-ai
+and: https://workspace.google.com/solutions/ai/
+
+---
+**Apple intelligence**: https://www.apple.com/apple-intelligence/
+(Uses ChatGPT!)
+
+---
+Short guide to the Stable Diffusion **CFG parameter**: https://getimg.ai/guides/interactive-guide-to-stable-diffusion-guidance-scale-parameter
+and the **steps parameter**: https://getimg.ai/guides/interactive-guide-to-stable-diffusion-steps-parameter
+
+---
+Intel on **Fugatto**: https://www.theverge.com/2024/11/25/24305584/nvidia-fugatto-ai-audio-generator-music
+On GITHub: https://fugatto.github.io/
+
+---
+Great resource for example **ComfyUI workflows**: https://comfyanonymous.github.io/ComfyUI_examples/

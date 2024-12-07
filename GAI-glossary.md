@@ -30,6 +30,15 @@
 3.	Post-Processing Bias Filters: After generating content, the AI’s output can be analyzed using bias detection tools or filters that flag potentially biased or harmful responses. These filters can either modify or reject biased outputs, ensuring that the final result aligns with fairness and inclusivity standards.
 
 # C
+
+**Chain-of-Thought** (CoT) reasoning capabilities, allowing the AI to present its thought process in real time
+
+**CLIP**, which stands for Contrastive Language–Image Pretraining, is a model developed by OpenAI that plays a significant role in the context of generative AI. It is designed to understand and associate images and text in a way that allows for more advanced image and language processing tasks. CLIP is capable of performing zero-shot learning, meaning it can make predictions on tasks without direct prior examples, simply by understanding the context and relationships from the vast amount of data it was trained on.
+
+In terms of functionality, CLIP works by learning visual concepts from natural language supervision. During training, it aligns images with corresponding textual descriptions, effectively creating a shared understanding or embedding space where both images and text can coexist. This capability makes CLIP particularly useful in tasks that require an understanding of visual and linguistic information simultaneously, such as image captioning, visual search, and integrated text-to-image generation.
+
+In generative AI, CLIP is often paired with other models, such as DALL-E or other image generation models, to enhance the ability to generate or modify content based on textual input. By understanding the relationship between visuals and text, CLIP can guide these models to generate visual content that corresponds more accurately to specific textual prompts, improving the coherence and relevance of generated content.
+
 **Context Window** - The context window in generative AI refers to the maximum amount of text or data that a model can process at once when generating or analyzing content. Essentially, it defines how much information the model can “see” in a single pass, which affects its ability to understand and produce coherent responses based on previous parts of the text. For instance, if a model has a context window of 4,000 tokens, it can only consider the last 4,000 tokens as context for any response. A smaller context window limits the model’s ability to maintain consistency over long pieces of text, while a larger context window allows it to handle complex, multi-turn dialogues or lengthy documents without losing track of relevant details. Increasing the context window enhances the model’s performance on tasks requiring extensive contextual understanding, such as summarizing long articles or engaging in extended conversations.
 
 The context window size and the prompt size are related but not the same. The context window size is the maximum amount of tokens (words, subwords, or characters) that the model can consider at once, including both the prompt (input from the user) and any generated output within a single interaction.
