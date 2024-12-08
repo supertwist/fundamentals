@@ -91,9 +91,14 @@ Intel on **Fugatto**: https://www.theverge.com/2024/11/25/24305584/nvidia-fugatt
 On GITHub: https://fugatto.github.io/
 
 ---
+**Model comparisons**: https://artificialanalysis.ai/
+
+---
 Great resource for example **ComfyUI workflows**: https://comfyanonymous.github.io/ComfyUI_examples/
 
 ---
 **Mochi** model: https://www.genmo.ai/blog
 on GitHub: https://github.com/genmoai/mochi
 for ComfyUI: https://comfyanonymous.github.io/ComfyUI_examples/mochi/
+**step-by-step** set-up for ComfyUI: https://stable-diffusion-art.com/mochi-comfyui/
+**playground**: https://mochi1ai.com/playground
