@@ -71,6 +71,20 @@ The prompt size, on the other hand, refers specifically to the portion of the co
 
 **Fine-tuning** - The process of adjusting a pre-trained model on a smaller, task-specific dataset to improve its performance on that task.
 
+**Foundation Model** - a "foundation model" refers to a large-scale, pre-trained machine learning model that serves as a general-purpose platform for a wide array of downstream tasks. These models are typically developed using vast datasets and extensive computational resources, allowing them to capture a broad understanding of language, vision, or other data types.
+
+Foundation models are characterized by their versatility and ability to be fine-tuned or adapted to specific applications with relatively small amounts of additional data and computation. Examples include models like GPT-3 for natural language processing and other large-scale models for tasks such as image recognition or speech synthesis.
+
+The key aspects of foundation models include:
+
+1. **Scale**: They are usually very large, involving billions of parameters, enabling them to capture complex patterns and relationships in data.
+
+2. **Pre-training**: They are trained on diverse and extensive datasets, which allows them to learn general features and patterns.
+
+3. **Transferability**: Because of their broad training, they can be fine-tuned for specific tasks with less data and effort compared to training a new model from scratch.
+
+Foundation models have become a cornerstone of AI development because they reduce the barrier to entry for AI deployment across different domains, making sophisticated AI capabilities more accessible.
+
 # G
 **Generative Adversarial Network (GAN)** - A generative model framework with two neural networks (generator and discriminator) competing in a zero-sum game to improve data generation.
 
