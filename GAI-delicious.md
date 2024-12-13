@@ -1,5 +1,12 @@
 # GAI links
 
+## 24-12-13
+Prompt **enhancer** custom node for ComfyUI: https://github.com/marduk191/ComfyUI-Fluxpromptenhancer
+
+## 24-12-12
+___
+**Worldlabs** can generate a 3D world from a photo: https://www.worldlabs.ai/blog
+
 ## 24-12-08
 ---
 **Model comparisons**: https://artificialanalysis.ai/
@@ -14,6 +21,7 @@ for ComfyUI: https://comfyanonymous.github.io/ComfyUI_examples/mochi/
 **step-by-step** set-up for ComfyUI: https://stable-diffusion-art.com/mochi-comfyui/
 **playground**: https://mochi1ai.com/playground
 
+## 24-12-07
 ---
 Intel on **Fugatto**: https://www.theverge.com/2024/11/25/24305584/nvidia-fugatto-ai-audio-generator-music
 On GITHub: https://fugatto.github.io/
@@ -103,4 +111,5 @@ Wikipedia article on **txt2img** models: https://en.wikipedia.org/wiki/Text-to-i
 ---
 Quick Stable Diffusion **explainer:** https://poloclub.github.io/diffusion-explainer/#:~:text=Stable%20Diffusion%20is%20a%20text,bunny%20%E2%80%94%20in%20a%20few%20seconds.
 
+---
 **Curry Hackett** works with artificial intelligence tools to create scenes from an Afrofuturist alternative history and “imagine a world that centers Blackness.” (Kriston Capps interviews architect Curry Hackett) https://www.bloomberg.com/news/features/2023-09-23/with-ai-an-architect-imagines-a-world-that-centers-blackness
