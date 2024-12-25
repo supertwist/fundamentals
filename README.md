@@ -1,2 +1,2 @@
 # fundamentals
-teaching-related docs
+research and teaching-related docs for AI topics
