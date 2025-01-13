@@ -1,5 +1,25 @@
 # AI cloning notes
 
+## Services
+- [HeyGen](https://www.heygen.com/)
+- [HeyGen tutorial here](https://www.youtube.com/watch?v=xHZ3kfzP6YY) My guess is that most services will have a similar workflow.
+- [Synthesia](https://www.synthesia.io/)
+- [Synthesia tutorial](https://www.synthesia.io/post/how-to-make-an-avatar)
+- [invideo AI](https://invideo.io/make/custom-avatar/) Waitlist.
+- [Colossyan](https://www.colossyan.com/custom-avatar)
+- [Veed](https://www.veed.io/tools/text-to-speech-avatar/custom-avatar)
+- [Vidyard](https://www.vidyard.com/products/ai-avatars/)
+- [Creatify](https://creatify.ai/features/ai-avatar)
+- [Bigvu](https://bigvu.tv/ai-avatars/custom-ai-avatar)
+- [Virbo](https://virbo.wondershare.com/guide/create-an-ai-avatar-video.html)
+- [AI Studios](https://www.aistudios.com/)
+- [ComfyUI implementation](https://www.reddit.com/r/StableDiffusion/comments/1dwz27s/live_portrait_how_to_make_talking_ai_avatars_in/)
+- [ComfyUI implementation on GutHub](https://github.com/jax-explorer/ComfyUI-IF_MemoAvatar)
+- [ComfyUI workflow](https://www.comfyonline.app/explore/791e2d71-eaaf-48da-8f99-9b4f7d657ff2)
+- [ComfyUI lipsync demo](https://www.youtube.com/watch?v=3_CQpLyyrXQ)
+- [ComfyUI Latentsync on GitHub](https://github.com/bytedance/LatentSync)
+- [Latentsync node](https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper)
+
 ## Sources
 Andrew video src [here](https://drive.google.com/drive/folders/1VGtG4yPXxUiUVyGzYj8Jghn47Pv6YAtX)
 
@@ -8,4 +28,4 @@ Andrew video src [here](https://drive.google.com/drive/folders/1VGtG4yPXxUiUVyGz
 - Week 05 Demonstration.mp4 = audio only
 - P1210614_Trim.mov = audio and video *Andrew sent me this a month ago or so when we first discussed.*
 
-We'll be working from sub-optimal source material.
+We'll be working from sub-optimal source material. Typically a clone is made from a subject in a studio situation: well-lit, good audio, possibly green screen. We might be able to doctor the one video file I have of Andrew talking using Premiere to drop out the background, enhance the image and audio quality, and add pauses between sentences.
