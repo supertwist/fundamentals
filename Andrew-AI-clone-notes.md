@@ -29,3 +29,7 @@ Andrew video src [here](https://drive.google.com/drive/folders/1VGtG4yPXxUiUVyGz
 - P1210614_Trim.mov = audio and video *Andrew sent me this a month ago or so when we first discussed.*
 
 We'll be working from sub-optimal source material. Typically a clone is made from a subject in a studio situation: well-lit, good audio, possibly green screen. We might be able to doctor the one video file I have of Andrew talking using Premiere to drop out the background, enhance the image and audio quality, and add pauses between sentences.
+
+- [Background reoval via Adobe Express](https://www.adobe.com/express/feature/ai/video/remove-background) This may be a good preliminary approach.
+- [General Premiere background removal](https://democreator.wondershare.com/video-editor/remove-background-premiere-pro.html)
+- [firefly extend feature](https://www.youtube.com/watch?v=IpV8y9VknX0) Maybe for adding pauses between sentences.
