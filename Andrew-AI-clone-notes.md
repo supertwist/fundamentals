@@ -20,6 +20,7 @@
 - [ComfyUI Latentsync on GitHub](https://github.com/bytedance/LatentSync)
 - [Latentsync node](https://github.com/ShmuelRonen/ComfyUI-LatentSyncWrapper)
 - [voice clone in Comfy UI](https://github.com/AIFSH/ComfyUI-GPT_SoVITS)
+- [test sentences from Harvard](https://www.cs.columbia.edu/~hgs/audio/harvard.html)
 
 ## Sources
 Andrew video src [here](https://drive.google.com/drive/folders/1VGtG4yPXxUiUVyGzYj8Jghn47Pv6YAtX)
