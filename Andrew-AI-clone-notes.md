@@ -22,6 +22,7 @@
 - [voice clone in Comfy UI](https://github.com/AIFSH/ComfyUI-GPT_SoVITS)
 - [test sentences from Harvard](https://www.cs.columbia.edu/~hgs/audio/harvard.html)
 - [CosyVoice, another cloner](https://www.runcomfy.com/comfyui-nodes/CosyVoice-ComfyUI)
+- [DeepFuze](https://comfy.icu/extension/SamKhoze__ComfyUI-DeepFuze)
 
 ## Sources
 Andrew video src [here](https://drive.google.com/drive/folders/1VGtG4yPXxUiUVyGzYj8Jghn47Pv6YAtX)
