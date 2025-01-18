@@ -24,6 +24,7 @@
 - [CosyVoice, another cloner](https://www.runcomfy.com/comfyui-nodes/CosyVoice-ComfyUI)
 - [DeepFuze](https://comfy.icu/extension/SamKhoze__ComfyUI-DeepFuze)
 - [DeepFuze video instructions](https://www.youtube.com/watch?v=FWdOlj60fig)
+- [Descript](https://www.descript.com/ai-voices)
 
 ## Sources
 Andrew video src [here](https://drive.google.com/drive/folders/1VGtG4yPXxUiUVyGzYj8Jghn47Pv6YAtX)
