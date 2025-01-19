@@ -12,6 +12,9 @@ ctrl-c to stop server [then re-start python]
 
 /Users/james/Desktop/OUT
 
+refresh bash profile:
+source ~/.bash_profile
+
 +++++
 
 Some explanations for the parameters:

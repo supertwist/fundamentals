@@ -14,7 +14,7 @@
 - [Virbo](https://virbo.wondershare.com/guide/create-an-ai-avatar-video.html)
 - [AI Studios](https://www.aistudios.com/)
 - [ComfyUI implementation](https://www.reddit.com/r/StableDiffusion/comments/1dwz27s/live_portrait_how_to_make_talking_ai_avatars_in/)
-- [ComfyUI implementation on GutHub](https://github.com/jax-explorer/ComfyUI-IF_MemoAvatar)
+- [ComfyUI implementation on GitHub](https://github.com/jax-explorer/ComfyUI-IF_MemoAvatar)
 - [ComfyUI workflow](https://www.comfyonline.app/explore/791e2d71-eaaf-48da-8f99-9b4f7d657ff2)
 - [ComfyUI lipsync demo](https://www.youtube.com/watch?v=3_CQpLyyrXQ)
 - [ComfyUI Latentsync on GitHub](https://github.com/bytedance/LatentSync)
@@ -22,7 +22,7 @@
 - [voice clone in Comfy UI](https://github.com/AIFSH/ComfyUI-GPT_SoVITS)
 - [test sentences from Harvard](https://www.cs.columbia.edu/~hgs/audio/harvard.html)
 - [CosyVoice, another cloner](https://www.runcomfy.com/comfyui-nodes/CosyVoice-ComfyUI)
-- [DeepFuze](https://comfy.icu/extension/SamKhoze__ComfyUI-DeepFuze)
+- [DeepFuze](https://github.com/SamKhoze/ComfyUI-DeepFuze)
 - [DeepFuze video instructions](https://www.youtube.com/watch?v=FWdOlj60fig)
 - [Descript](https://www.descript.com/ai-voices)
 
