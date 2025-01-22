@@ -1,6 +1,7 @@
 # GAI links
 
 ## 25-01-22
+- [MIT's **Hacking Etiquette**](https://handbook.mit.edu/hacking#:~:text=Hacking%20is%20a%20long%2Dstanding,that%20demonstrate%20ingenuity%20and%20cleverness.)
 - [Microsoft article on **jailbreaking**](https://www.microsoft.com/en-us/security/blog/2024/06/04/ai-jailbreaks-what-they-are-and-how-they-can-be-mitigated/)
 - [IBM article on **jailbreaking**](https://www.ibm.com/think/insights/ai-jailbreak)
 - [**NYT,** Although many of the companies that produce generative A.I. tools ban their users from creating explicit imagery, people find ways to break the rules. “It’s an arms race, and it seems that whenever somebody comes up with a guardrail, someone else figures out how to jailbreak,” Mr. Etzioni said.](https://www.nytimes.com/2024/01/26/arts/music/taylor-swift-ai-fake-images.html)
