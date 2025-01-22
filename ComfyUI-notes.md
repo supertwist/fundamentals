@@ -7,6 +7,11 @@ PYTORCH_ENABLE_MPS_FALLBACK=1, python3 main.py --force-fp16
 QUIT
 ctrl-z to end
 ctrl-c to stop server [then re-start python]
+ctrl+d to quit python
+
+VENV
+activate = source venv/bin/activate [at GIT dir]
+deactivate = deactivate
 
 1280 x 720
 
@@ -14,6 +19,8 @@ ctrl-c to stop server [then re-start python]
 
 refresh bash profile:
 source ~/.bash_profile
+
+python --version
 
 +++++
 
