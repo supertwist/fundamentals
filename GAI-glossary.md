@@ -104,6 +104,35 @@ Foundation models have become a cornerstone of AI development because they reduc
 
 Inpainting remains coherent with the rest of the image by using contextual information from surrounding pixels to generate new content that blends seamlessly with existing elements. During inpainting, the model analyzes the textures, colors, shapes, and edges in the areas adjacent to the missing or masked region. By learning these patterns, the model can predict and generate details that fit naturally into the scene, maintaining visual continuity. Advanced inpainting models, like those based on diffusion or GANs, are specifically trained to understand context and recognize common patterns within an image, enabling them to produce realistic and coherent extensions that align with the original style and content of the image.
 
+# J
+**Jailbreak** - refers to the process of manipulating or exploiting a language model or AI system to bypass its built-in safety measures, content filters, or ethical guidelines. This is typically done to generate content that the AI would normally restrict or refrain from producing, such as inappropriate, toxic, or biased outputs. Jailbreaking can pose ethical and security challenges, as it may lead to the spread of harmful information or misuse of AI technologies.
+
+Jailbreaking strategies for generative AI aim to bypass content moderation and safety protocols. Here are some common types with examples:
+
+1. **Prompt Engineering:**
+   - *Strategy:* Crafting specific input prompts designed to trigger restricted outputs.
+   - *Example:* If an AI is designed to avoid generating violent content, a user might structure a prompt around a historical reenactment or fictional scenario to coax the AI into generating similar content indirectly.
+
+2. **Obfuscated Language or Code:**
+   - *Strategy:* Using indirect language, symbols, or coding to elicit restricted responses.
+   - *Example:* To bypass restrictions on certain topics, users might use analogies, metaphors, or code words that aren't explicitly recognized by the AI's filters.
+
+3. **Context Shifting:**
+   - *Strategy:* Providing a broad and seemingly benign context that gradually shifts towards restricted content.
+   - *Example:* Starting a conversation about a fantasy scenario and slowly guiding the discussion toward restricted themes by building on each of the AI’s preceding responses.
+
+4. **Role-Playing:**
+   - *Strategy:* Engaging the AI in a role-playing scenario where it adopts a character, potentially bypassing its restrictions.
+   - *Example:* Asking the AI to act like a character from history who lived in a time of war, thereby encouraging it to discuss conflicts and strategies outside its usual content limits.
+
+5. **Chaining or Iterative Prompting:**
+   - *Strategy:* Using a series of related prompts to build up to a forbidden topic gradually.
+   - *Example:* Expressing curiosity about related non-restricted topics first, and then asking open-ended questions that guide the conversation toward the desired output.
+
+6. **Manipulative Framing:**
+   - *Strategy:* Presenting prompts in a manner that suggests an academic or critical analysis need.
+   - *Example:* Requesting information on controversial topics under the guise of needing it for a research paper or debate preparation, potentially leading the AI to relax its filters under the assumption of a legitimate request.
+
 # L
 **Large Language Model (LLM)** - A model trained on vast amounts of text data, enabling it to generate human-like language and understand context. Examples include GPT, BERT, and T5.
 
