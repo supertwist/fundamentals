@@ -5,7 +5,7 @@
 - [IBM article on **jailbreaking**](https://www.ibm.com/think/insights/ai-jailbreak)
 - [**NYT,** Although many of the companies that produce generative A.I. tools ban their users from creating explicit imagery, people find ways to break the rules. “It’s an arms race, and it seems that whenever somebody comes up with a guardrail, someone else figures out how to jailbreak,” Mr. Etzioni said.](https://www.nytimes.com/2024/01/26/arts/music/taylor-swift-ai-fake-images.html)
 - [An older NYT article: **Researchers Poke Holes in Safety Controls of ChatGPT and Other Chatbots**](https://www.nytimes.com/2023/07/27/business/ai-chatgpt-safety-research.html)
-- [CMU research paper, **Universal and Transferable Adversarial Attacks on Aligned Language Models**](https://llm-attacks.org/) *Noteworthy is the ethis statement.*
+- [CMU research paper, **Universal and Transferable Adversarial Attacks on Aligned Language Models**](https://llm-attacks.org/) *Noteworthy is the ethics statement.*
 
 
 ## 24-12-13
