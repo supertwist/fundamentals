@@ -1,5 +1,9 @@
 # GAI links
 
+## 25-01-29
+- [txt23D Hunyuan3D-2](https://pinokio.computer/item?uri=https://github.com/pinokiofactory/Hunyuan3D-2)
+
+
 ## 25-01-22
 - [MIT's **Hacking Etiquette**](https://handbook.mit.edu/hacking#:~:text=Hacking%20is%20a%20long%2Dstanding,that%20demonstrate%20ingenuity%20and%20cleverness.)
 - [Microsoft article on **jailbreaking**](https://www.microsoft.com/en-us/security/blog/2024/06/04/ai-jailbreaks-what-they-are-and-how-they-can-be-mitigated/)
