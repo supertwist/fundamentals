@@ -1,10 +1,9 @@
 # Untitled exhibition in conjunction with [OSCON](https://ospo.gwu.edu/open-source-conference-gw-oscon)
 
-Conference dates: March 24-25, 2025
-
-Install in Gallery 102: March 19 - 21
-**Exhibition dates: March 22 - 26**
-Deinstall dates: March 27 - 28
+- Conference dates: March 24-25, 2025
+- Install in Gallery 102: March 19 - 21
+- **Exhibition dates: March 22 - 26**
+- Deinstall dates: March 27 - 28
 
 Gallery 102 location:
 Smith all of Art
