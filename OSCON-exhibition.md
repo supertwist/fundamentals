@@ -37,3 +37,8 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 - blurb about exhibition 5 sentences (James H will draft.)
 - images of works for web
 - [Smith 102 Floorplan](https://github.com/user-attachments/files/18609417/Smith.102.pdf)
+
+## Possible titles
+- Public Sauce
+- IRL
+- Scenius
