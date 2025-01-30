@@ -6,14 +6,14 @@
 - reception March 24???
 - Deinstall dates: March 27 - 28
 
-Gallery 102 location:\
+**Gallery 102 location:**\
 Smith all of Art\
 Room 102\
 801 22nd Street NW\
 Smith Hall of Art\
 Washington, DC 20052
 
-Conference location:\
+**Conference location:**\
 University Student Center\
 (I'm not sure the exact rooms yet)\
 800 21st St NW\
