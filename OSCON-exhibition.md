@@ -44,3 +44,12 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 - Scenius
 - FREE AS BEER
 - #include
+(from H.U.O.'s ideas about interactions between artists and scientists at conferences)
+- Coffee Break
+- (non-)conference
+- Contact Zone
+
+## Blurb ideas
+Thos exhibition brings together three artists who's output leverages the resources of a wider community.
+
+Open Source software emerged as cultural counterbalance to the fencing in of knowlege. Prior to the emergence of 'home computers' software developers recognized the value of sharing code, (no need to re-invent wheels, extra eyes on bugs, civic vitues)
