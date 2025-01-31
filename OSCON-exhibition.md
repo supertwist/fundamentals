@@ -43,7 +43,7 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 - IRL
 - Scenius
 - FREE AS BEER
-- #include
+- #include/
 (from H.U.O.'s ideas about interactions between artists and scientists at conferences)
 - Coffee Break
 - (non-)conference
