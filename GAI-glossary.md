@@ -186,6 +186,16 @@ This can be done by injecting unexpected instructions or misleading information 
 The risk of prompt injection arises because the AI models often do not have the capability to distinguish between legitimate user instructions and malicious content within their training or operational methodologies. Consequently, ensuring robust input validation and implementing safeguards to detect and prevent such manipulations are essential to mitigating the risks associated with prompt injections.
 
 # R
+**Retrieval-Augmented Generation (RAG)** - This approach combines retrieval-based techniques with generative models to improve the quality and accuracy of generated content. The main idea is to enhance the generative model by incorporating relevant information retrieved from an external knowledge base or data source. Here’s a breakdown of the process:
+
+1. **Retrieval**: A retrieval model is used to search and extract the most relevant pieces of information from a large set of data (such as a database, documents, or internet resources) based on a given input or query.
+
+2. **Augmentation**: The retrieved information is then used to enrich or augment the input given to the generative model. This step ensures that the generative model has access to accurate and contemporaneous data that may not be part of its original training.
+
+3. **Generation**: Finally, a generative model, such as a transformer-based language model, uses the augmented input to produce a response or generate content. The incorporation of retrieved data helps the model generate content that is more informed and contextually relevant.
+
+RAG is particularly useful for tasks that require up-to-date knowledge or specific factual information, enhancing the ability of generative models to provide accurate and context-aware results.
+
 **Reinforcement Learning from Human Feedback (RLHF)** - A training method that incorporates human preferences to improve model responses. It involves training machine learning models by incorporating evaluations and preferences from humans to guide and improve the learning process. This approach is particularly valuable for tasks where specifying a clear reward function is challenging, but human evaluators can easily distinguish between more and less desirable outcomes.
 
 In generative AI, RLHF is used to align the outputs of models with human expectations and preferences. Here's how it typically works:
