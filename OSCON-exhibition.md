@@ -1,10 +1,11 @@
 # Untitled exhibition in conjunction with [OSCON](https://ospo.gwu.edu/open-source-conference-gw-oscon)
 
 - Conference dates: March 24-25, 2025
-- Install in Gallery 102: March 19 - 21
+- Install in Gallery 102: March 19 - 21 (we might be able to start installing the week before, at that is spring break - I'm thinking maybe the 12th)
 - **Exhibition dates: March 22 - 26**
 - reception March 24???
-- Deinstall dates: March 27 - 28
+- Deinstall dates: March 27 - 28 (exploring the possibility of keeping the show up through April 4)
+
 
 **Gallery 102 location:**\
 Smith all of Art\
@@ -37,6 +38,7 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 - blurb about exhibition 5 sentences (James H will draft.)
 - images of works for web
 - [Smith 102 Floorplan](https://github.com/user-attachments/files/18609417/Smith.102.pdf)
+- Artists: what gear needed: Mac Minis? Flat screens? Projectors?
 
 ## Possible titles
 - Public Sauce
