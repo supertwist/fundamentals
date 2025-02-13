@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-02-13
+- [RAG primer](https://www.rittmanmead.com/blog/2024/01/retrieval-augmented-generation-a-primer/)
+
 ## 25-01-29
 - [txt23D Hunyuan3D-2](https://pinokio.computer/item?uri=https://github.com/pinokiofactory/Hunyuan3D-2)
 
