@@ -2,6 +2,7 @@
 
 ## 25-02-13
 - [RAG primer](https://www.rittmanmead.com/blog/2024/01/retrieval-augmented-generation-a-primer/)
+- [Sending SORA to Film School](https://intelligentjello.substack.com/p/sending-sora-to-film-school)
 
 ## 25-01-29
 - [txt23D Hunyuan3D-2](https://pinokio.computer/item?uri=https://github.com/pinokiofactory/Hunyuan3D-2)
