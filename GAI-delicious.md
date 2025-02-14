@@ -1,8 +1,9 @@
 # GAI links
 
 ## 25-02-13
-- [RAG primer](https://www.rittmanmead.com/blog/2024/01/retrieval-augmented-generation-a-primer/)
-- [Sending SORA to Film School](https://intelligentjello.substack.com/p/sending-sora-to-film-school)
+- [Spawning's **Holly Herndon & Mat Dryhurst** on How to Build Humane AI for Artists](https://podcasts.apple.com/us/podcast/spawnings-holly-herndon-mat-dryhurst-on-how-to-build/id1766375560?i=1000690923101)
+- [**RAG** primer](https://www.rittmanmead.com/blog/2024/01/retrieval-augmented-generation-a-primer/)
+- [Sending SORA to **Film School**](https://intelligentjello.substack.com/p/sending-sora-to-film-school)
 
 ## 25-01-29
 - [txt23D Hunyuan3D-2](https://pinokio.computer/item?uri=https://github.com/pinokiofactory/Hunyuan3D-2)
