@@ -35,6 +35,7 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 - to do: line up gallery sitters
 - to do: see if there's budget for for food/drink
 - to do: collect artist bios (Chris Combs, Michelle Herman, Jason Bulluck, others TBD.) Short, 3 - 5 sentences.
+- to do: each artist provide links to repos used in the pieces in the show (will add to wall text)
 - blurb about exhibition 5 sentences (James H will draft.)
 - images of works for web
 - [Smith 102 Floorplan](https://github.com/user-attachments/files/18609417/Smith.102.pdf)
@@ -46,13 +47,63 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 - Scenius
 - FREE AS BEER
 - #include
+- built on the kindness of others
+- free materials
 
 (from H.U.O.'s ideas about interactions between artists and scientists at conferences)
 - Coffee Break
 - (non-)conference
 - Contact Zone
 
-## Blurb ideas
-Thos exhibition brings together three artists who's output leverages the resources of a wider community.
+## Thinking out loud:
 
-Open Source software emerged as cultural counterbalance to the fencing in of knowlege. Prior to the emergence of 'home computers' software developers recognized the value of sharing code, (no need to re-invent wheels, extra eyes on bugs, civic vitues)
+@everyone, James thinking out loud.
+
+I am assuming some things about all the works in the show:
+- the works use open source code borrowed from others to create new works (solving hardware IO needs, generating content algorithmically)
+- you are not using code you've built and have shared publically
+- the artworks are not open source or creative commons licensed
+- the subject of the work is not a critique of open source
+- Where I'm wrong about these assumptions, let me know
+
+General question for studio visit:
+do you see the code you are using as a quick, efficient solution to a problem, or as something to explore and be in conversation with? if the latter, describe.
+
+From an idea from @Combs:
+- URL to repo(s) associated with works to add to wall labels (possibly as QR codes.) Perhaps wall text also includes a short, high-level description of where the borrowed code enables the greater work.
+
+And another possible title: "built on the kindness of others"
+
+
+blurb:
+
+Each piece of code is like a new color in the palette, expanding the range of expressiveness avaiable to creative coders.
+
+parallel
+
+Starting in the mid-twentieth century and continuing to the present, a rought parallel between artistic practice and software engineering, A counterbalance to the commercialization of code and of art.
+
+This exhibition brings together 'n' artists whose creative output leverages the resources of a wider community.
+
+Open Source software emerged as cultural counterbalance to the fencing in of knowlege. Prior to the emergence of 'home computers' software developers recognized the value of sharing code, (no need to re-invent wheels, extra eyes on bugs, civic vitues.)
+
+re-inventing the flat tire. Why solve a problem that had already been solved?
+
+In some respects open source could be seen in parallel to conceptual art
+
+commons
+
+works that draw from open source libraries
+
+borrowed
+
+built on the kindness of others
+an intellectual commons such that one doesn't need to re-invent the flat tire, rather conserve one's attention and invest it in building something new using available building blocks.
+
+
+Are you guys using open source in different ways? (hardware IO, generating content algorithmically)
+do the artists in the exhibition feel differently about OS?
+do they borrow for mere utility, or is there a conversation with the borrowed code? are the artists using the code in ways that the author never conceived or intended?
+do the artists see the code they are using as a quick, efficient solution to a problem, or as something to explore and be in conversation with?
+
+variety of works that borrow open source code
