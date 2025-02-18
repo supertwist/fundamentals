@@ -25,7 +25,7 @@
 6. **Verify and Inspect**:
    - Make sure to visually inspect the mesh for errors or deviations. Adjust parameters and rerun the meshing process if necessary.
 
-## how can I export a cross-section of a solid from fusion360 as a .DXF file?
+## how can I export a cross-section of a solid from Fusion 360 as a .DXF file?
 
 1. **Open Your Design**:
    - Launch Fusion 360 and open the design file that contains the solid for which you want to export a cross-section.
@@ -53,3 +53,6 @@
 
 7. **Verify the Export**:
    - Optionally, open the exported .DXF file with a compatible viewer or CAD software to ensure the cross-section appears as expected.
+
+## JH notes
+- rather than slicing in Fusion 360, export slices from CloudCompare (truncate the model in the DBtree.) Then create drawings in Fusion 360
