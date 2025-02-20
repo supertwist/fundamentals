@@ -86,6 +86,26 @@ The key aspects of foundation models include:
 
 Foundation models have become a cornerstone of AI development because they reduce the barrier to entry for AI deployment across different domains, making sophisticated AI capabilities more accessible.
 
+**Frontier Model** - typically refers to the most advanced and capable AI models that push the boundaries of what is currently achievable in AI research and applications. These models are often characterized by their large scale, sophisticated architectures, and advanced training techniques, which enable them to perform complex tasks with high levels of performance.
+
+Frontier models in generative AI are usually at the cutting edge of innovation, setting new benchmarks in the field. They are capable of generating increasingly coherent, contextually relevant, and high-quality content across various domains, such as natural language processing, computer vision, and audio synthesis.
+
+Key features of frontier models often include:
+
+1. **Scale**: They involve a large number of parameters, requiring substantial computational resources for training and fine-tuning.
+
+2. **Architecture**: They utilize state-of-the-art architectures that build upon recent advancements in AI, such as transformer networks or diffusion models.
+
+3. **Training Data**: They are trained on large and diverse datasets to generalize well across different scenarios and tasks.
+
+4. **Multitask Capabilities**: They are designed to handle multiple tasks or modalities, such as generating text, images, or music.
+
+5. **Performance**: They achieve superior performance metrics on benchmark tests compared to previous models, often setting new records in terms of accuracy, creativity, or realism.
+
+6. **Generalization**: They exhibit strong generalization capabilities, allowing them to perform well on tasks for which they were not explicitly trained.
+
+Frontier models are often developed by leading AI research labs and organizations, and they require collaboration across various disciplines, including computer science, linguistics, psychology, and ethics, to address challenges related to bias, fairness, and societal impact. These models play a significant role in advancing AI research and expanding the potential applications of AI technologies.
+
 ## G
 **Generative Adversarial Network (GAN)** - A generative model framework with two neural networks (generator and discriminator) competing in a zero-sum game to improve data generation.
 
