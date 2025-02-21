@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-02-20
+- [LLM deep dive video](https://www.youtube.com/watch?v=7xTGNNLPyMI)
+
 ## 25-02-13
 - [Spawning's **Holly Herndon & Mat Dryhurst** on How to Build Humane AI for Artists](https://podcasts.apple.com/us/podcast/spawnings-holly-herndon-mat-dryhurst-on-how-to-build/id1766375560?i=1000690923101)
 - [**RAG** primer](https://www.rittmanmead.com/blog/2024/01/retrieval-augmented-generation-a-primer/)
