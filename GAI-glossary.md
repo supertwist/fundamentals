@@ -32,6 +32,22 @@
 
 ## C
 
+**Catastrophic forgetting** - also known as catastrophic interference, refers to a phenomenon in machine learning, particularly in neural networks, where a model that is trained sequentially on multiple tasks tends to forget the information from the earlier tasks when it learns new tasks. This issue is especially relevant in the context of generative AI, where a model needs to maintain the ability to generate data or perform tasks across multiple domains or categories without losing its previously acquired skills.
+
+In generative AI, catastrophic forgetting can significantly hinder the model's performance because the generative model must retain complex distributions over data from various tasks. When the model is updated with new data or tasks, it may inadvertently overwrite or diminish the learned knowledge of prior tasks, resulting in a reduction in its overall capability and versatility.
+
+To address catastrophic forgetting in generative AI, researchers have explored several approaches, such as:
+
+1. **Regularization Techniques**: Methods like Elastic Weight Consolidation (EWC) introduce regularization terms to penalize changes in network parameters that are important for previous tasks.
+
+2. **Replay Strategies**: These involve storing examples or prototypical examples of past tasks and periodically retraining the model on these examples to refresh its memory.
+
+3. **Dynamic Architectures**: Using models that adapt their architectures dynamically by adding new nodes or modules to handle new tasks without affecting the performance on previous tasks.
+
+4. **Meta-Learning & Transfer Learning**: Leveraging meta-learning frameworks or transferring learning frameworks to enable models to learn how to retain past knowledge effectively.
+
+Addressing catastrophic forgetting is crucial for developing robust and capable generative AI systems that can handle lifelong learning across diverse tasks without continued retraining from scratch.
+
 **Chain-of-Thought** (CoT) reasoning capabilities, allowing the AI to present its thought process in real time
 
 **CLIP**, which stands for Contrastive Language–Image Pretraining, is a model developed by OpenAI that plays a significant role in the context of generative AI. It is designed to understand and associate images and text in a way that allows for more advanced image and language processing tasks. CLIP is capable of performing zero-shot learning, meaning it can make predictions on tasks without direct prior examples, simply by understanding the context and relationships from the vast amount of data it was trained on.
