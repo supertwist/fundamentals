@@ -38,9 +38,10 @@ Exhibition dates: March 17 - April 4
 Public Sauce presents a variety of artworks whose creation is dependent upon open source tools. From full-features standalone apps like Blender, to libraries like React, to the low-level code that controls hardware IO, open source opens up a vast new range of possibilities for artists, both formally and conceptually. The wide adoption of OS in the creative community provides a counterbalance to the commercialization of both technology and of art, and a celebration of the intellectual commons.
 
 ## Wall labels
+For each artwork, james needs at least one repo to link to...
 
-[React repo:](https://github.com/facebook/react)
-[Blender repo:](https://github.com/blender/blender)
+Jason [React repo:](https://github.com/facebook/react)
+David [Blender repo:](https://github.com/blender/blender)
 
 
 ### loose crap
