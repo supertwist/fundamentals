@@ -43,7 +43,7 @@ For each artwork, james needs at least one repo to link to...
 Jason [React repo:](https://github.com/facebook/react)\
 David [Blender repo:](https://github.com/blender/blender)
 
-## Bios
+## Short Bios
 
 **Jason Bulluck** is a conceptual artist, writer, and teacher living in  Washington, DC, and working in both DC and Chicago. His work explores  encounters of critical geography, Buddhism and Black, Feminist, and  Queer liberatory thought and praxis. Recent projects include sculpture  and installation that invite audiences to participate in these  discourses through material engagements, digital provocations,  performance, and writing.
 
