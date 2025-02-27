@@ -32,10 +32,10 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 
 ## Blurb
 **Public Sauce**\
-Recent works by Jason Bulluck, Chris Combs, Michelle Lisa Herman, David Mordini, Derek Toomes.\
+Recent works by Jason Bulluck, Chris Combs, Michelle Lisa Herman, David Mordini, and Derek Toomes.\
 Exhibition dates: March 17 - April 4
 
-Public Sauce presents a variety of artworks whose creation is dependent upon open source tools. From full-features standalone apps like Blender, to libraries like React, to the low-level code that controls hardware IO, open source opens up a vast new range of possibilities for artists, both formally and conceptually. The wide adoption of OS in the creative community provides a counterbalance to the commercialization of both technology and of art, and a celebration of the intellectual commons.
+Public Sauce presents a variety of artworks whose creation is dependent upon open source tools. From full-featured standalone apps like Blender, to libraries like React, to the low-level code that controls hardware IO, open source opens up a vast new range of possibilities for artists, both formally and conceptually. The wide adoption of OS in the creative community provides a counterbalance to the commercialization of both technology and of art, and a celebration of the intellectual commons.
 
 ## Wall labels
 For each artwork, james needs at least one repo to link to...
