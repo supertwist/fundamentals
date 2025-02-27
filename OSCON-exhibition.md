@@ -43,6 +43,18 @@ For each artwork, james needs at least one repo to link to...
 Jason [React repo:](https://github.com/facebook/react)\
 David [Blender repo:](https://github.com/blender/blender)
 
+## Bios
+
+**Jason Bulluck** is a conceptual artist, writer, and teacher living in  Washington, DC, and working in both DC and Chicago. His work explores  encounters of critical geography, Buddhism and Black, Feminist, and  Queer liberatory thought and praxis. Recent projects include sculpture  and installation that invite audiences to participate in these  discourses through material engagements, digital provocations,  performance, and writing.
+
+**Chris Combs** is an artist based in Washington, D.C and Mount Rainier, Maryland whose sculptural artworks both incorporate and question technologies. Before becoming an artist, he was a photojournalist, a photo editor for National Geographic, a product manager, and ran a media website. As a kid, he wanted to make robots; many years later, he looped back to this.
+
+**Michelle Lisa Herman** is a Washington, DC-based multidisciplinary artist whose practice spans theoretical and philosophical research, feminist and disability politics, comedy, and conceptualism.
+
+**David Mordini** is an artist who lives and works in the Washington Metropolitan Area. He received his BFA from the Corcoran College of Art and Design in 1995. Mordini’s work was originally selected as part of the permanent collection of the Corcoran Gallery of Art, and now is held in the permanent collection at American University. He has served on the boards of The Washington Project for the Arts and the Washington Sculptors Group. In 2015, Mordini co-founded Otis Street Arts Project, and is now its sole proprietor and director.
+
+**Derek Toomes** is an artist based in Greensboro and Raleigh, NC.  He is currently an Assistant Professor in the Department of Interior Architecture at the University of North Carolina at Greensboro.  Derek is drawn to the iconic imagery of popular culture, as he is equally interested our societal location as a culture inundated by imagery.
+
 
 ## James' loose crap
 
