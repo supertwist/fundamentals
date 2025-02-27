@@ -44,7 +44,7 @@ Jason [React repo:](https://github.com/facebook/react)\
 David [Blender repo:](https://github.com/blender/blender)
 
 
-### loose crap
+## James' loose crap
 
 - to do: line up gallery sitters
 - to do: see if there's budget for for food/drink
