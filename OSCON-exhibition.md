@@ -1,10 +1,10 @@
 # Untitled exhibition in conjunction with [OSCON](https://ospo.gwu.edu/open-source-conference-gw-oscon)
 
 - Conference dates: March 24-25, 2025
-- Install in Gallery 102: March 19 - 21 (we might be able to start installing the week before, at that is spring break - I'm thinking maybe the 12th)
-- **Exhibition dates: March 22 - 26**
-- reception March 24???
-- Deinstall dates: March 27 - 28 (exploring the possibility of keeping the show up through April 4)
+- Install in Gallery 102: March 10-16 (GW spring break)
+- **Exhibition dates: March 17 - April 4**
+- reception: Tuesday March 25, 3:30–5:30pm	Art show & reception
+- Deinstall dates: April 5-6
 
 
 **Gallery 102 location:**\
@@ -48,6 +48,7 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 - FREE AS BEER
 - #include
 - built on the kindness of others
+- kindness of strangers
 - free materials
 
 (from H.U.O.'s ideas about interactions between artists and scientists at conferences)
@@ -106,4 +107,23 @@ do the artists in the exhibition feel differently about OS?
 do they borrow for mere utility, or is there a conversation with the borrowed code? are the artists using the code in ways that the author never conceived or intended?
 do the artists see the code they are using as a quick, efficient solution to a problem, or as something to explore and be in conversation with?
 
-variety of works that borrow open source code
+variety of works that borrow open source code to solve different technical problems across media.
+
+Chris Combs - processing data and controlling devices
+Michelle Lisa Herman -
+Jason Bulluck -
+Derek Toomes -
+David Mordini -
+
+For each artist: uses open source to solve which problems?
+What repos?
+
+There are more things to learn and make than there is time available. Open resources allow artists to explore capabilities
+allow artists to try out new ideas without having to build everything from scratch.
+allow artists' imaginations to cover wider ground than they could on their own.
+it's easier to imagine more possibilities knowing that one doesn't have to start from scratch.
+
+I'm looking for the widest range of uses of OS, but right now I see two main categories:
+HARDWARE: controlling output devices/physical computing/droids that paint
+ORACLES: algorithms for generating content
+Is my thinking too narrow? Other categories?
