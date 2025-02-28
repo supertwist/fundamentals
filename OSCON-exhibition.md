@@ -50,7 +50,7 @@ Derek [Processing rep:](https://github.com/processing/processing4)
 
 **Chris Combs** is an artist based in Washington, D.C and Mount Rainier, Maryland whose sculptural artworks both incorporate and question technologies. Before becoming an artist, he was a photojournalist, a photo editor for National Geographic, a product manager, and ran a media website. As a kid, he wanted to make robots; many years later, he looped back to this.
 
-**Michelle Lisa Herman** is a Washington, DC-based multidisciplinary artist whose practice spans theoretical and philosophical research, feminist and disability politics, comedy, and conceptualism.
+**Michelle Lisa Herman** is a Washington, D.C.-based interdisciplinary artist and Assistant Professor at James Madison University. Herman’s work investigates invisible systems of power and is centered at the intersection of art and technology. She draws on references such as tech culture, feminist and disability theory, comedy, and conceptualism. Herman’s recent projects explore the relationship of the body to architecture. 
 
 **David Mordini** is an artist who lives and works in the Washington Metropolitan Area. He received his BFA from the Corcoran College of Art and Design in 1995. Mordini’s work was originally selected as part of the permanent collection of the Corcoran Gallery of Art, and now is held in the permanent collection at American University. He has served on the boards of The Washington Project for the Arts and the Washington Sculptors Group. In 2015, Mordini co-founded Otis Street Arts Project, and is now its sole proprietor and director.
 
