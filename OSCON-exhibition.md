@@ -40,9 +40,9 @@ Public Sauce presents a variety of artworks whose creation is dependent upon ope
 ## Wall labels
 For each artwork, james needs at least one repo to link to...
 
-Jason [React repo:](https://github.com/facebook/react)\
-David [Blender repo:](https://github.com/blender/blender)\
-Derek [Processing rep:](https://github.com/processing/processing4)
+Jason [React repo](https://github.com/facebook/react)\
+David [Blender repo](https://github.com/blender/blender)\
+Derek [Processing repo](https://github.com/processing/processing4)
 
 ## Short Bios
 
