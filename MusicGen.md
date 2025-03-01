@@ -5,7 +5,7 @@
 **Prompts:**
 + for tempo, include BPM
 + for audio quality, include “kbps” (kilobits per second) or “kHz” (kilohertz). "Higher values for both kbps and kHz ensure superior recording quality, reducing unwanted background noise and expanding the sound range. MusicGen’s default settings include 320kbps and 48kHz, which are relatively high for MP3 recordings, ensuring a rich and clear sound. However, it is crucial to consider the genre and style of music when choosing audio quality; for instance, some song intentionally incorporates lower audio quality (e.g., 64kbps and 16kHz) to achieve a specific vintage or nostalgic vibe."
-+ include time signature
++ include [time signature](https://en.wikipedia.org/wiki/Time_signature)
 
 ---
 **Top-k:**
