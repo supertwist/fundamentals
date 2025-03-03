@@ -143,5 +143,3 @@ Michelle Lisa Herman - train a system that generates texts similar to tropes of 
 Jason Bulluck - React platform for mobile apps
 Derek Toomes -
 David Mordini - Blender, open source CAD apllication,
-
-test
