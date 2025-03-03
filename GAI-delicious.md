@@ -1,6 +1,6 @@
 # GAI links
 ## 25-03-03
-- [local GUI of **MusicGen**](https://github.com/gabotechs/MusicGPT?tab=readme-ov-file)
+- [**MusicGPT** local GUI of MusicGen](https://github.com/gabotechs/MusicGPT?tab=readme-ov-file)
 
 ## 25-02-20
 - [LLM deep dive video](https://www.youtube.com/watch?v=7xTGNNLPyMI)
