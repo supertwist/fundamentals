@@ -4,9 +4,10 @@
 
 - Conference dates: March 24-25, 2025
 - Install in Gallery 102: March 10-16 (GW spring break)
-- **Exhibition dates: March 17 - March 28**
-- reception: Tuesday March 25, 3:30–5:30pm
-- Deinstall dates: March 29-30
+- **Exhibition dates: March 17 - March 29**
+- Conference reception: Tuesday March 25, 3:30–5:30pm
+- Closing reception: Saturday March 29
+- Deinstall dates: March 30-31
 
 **Gallery 102 location:**\
 Smith all of Art\
