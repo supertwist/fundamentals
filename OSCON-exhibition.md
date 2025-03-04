@@ -6,7 +6,7 @@
 - Install in Gallery 102: March 10-16 (GW spring break)
 - **Exhibition dates: March 17 - March 29**
 - Conference reception: Tuesday March 25, 3:30–5:30pm
-- Closing reception: Saturday March 29
+- Closing reception: Saturday March 29, 5:30-7:30pm
 - Deinstall dates: March 30-31
 
 **Gallery 102 location:**\
