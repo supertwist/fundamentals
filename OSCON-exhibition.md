@@ -4,9 +4,9 @@
 
 - Conference dates: March 24-25, 2025
 - Install in Gallery 102: March 10-16 (GW spring break)
-- **Exhibition dates: March 17 - April 4**
+- **Exhibition dates: March 17 - March 28**
 - reception: Tuesday March 25, 3:30–5:30pm
-- Deinstall dates: April 5-6
+- Deinstall dates: March 29-30
 
 **Gallery 102 location:**\
 Smith all of Art\
@@ -33,7 +33,7 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 ## Blurb
 **Public Sauce**\
 Recent works by Jason Bulluck, Chris Combs, Michelle Lisa Herman, David Mordini, and Derek Toomes.\
-Exhibition dates: March 17 - April 4
+Exhibition dates: March 17 - March 28
 
 Public Sauce presents a variety of artworks whose creation is dependent upon open source tools. From full-featured standalone apps like Blender, to libraries like React, to the low-level code that controls hardware IO, open source opens up a vast new range of possibilities for artists, both formally and conceptually. The wide adoption of OS in the creative community provides a counterbalance to the "secret sauce" of 'moats' and 'gatekeepers' - the commercialization of both technology and of art - and cebrates the intellectual commons.
 
