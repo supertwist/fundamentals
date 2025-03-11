@@ -36,7 +36,7 @@ Point person for Gallery 102 is **Em Petro**. (Corcoran School of Art and Design
 Recent works by Jason Bulluck, Chris Combs, Michelle Lisa Herman, David Mordini, and Derek Toomes.\
 Exhibition dates: March 17 - March 28
 
-Public Sauce presents a variety of artworks whose creation is dependent upon open source tools. From full-featured standalone apps like Blender, to libraries like React, to the low-level code that controls hardware IO, open source opens up a vast new range of possibilities for artists, both formally and conceptually. The wide adoption of OS in the creative community provides a counterbalance to the "secret sauce" of 'moats' and 'gatekeepers' - the commercialization of both technology and of art - and cebrates the intellectual commons.
+Public Sauce presents a variety of artworks whose creation is dependent upon open source software. From full-featured standalone apps like Blender, to libraries like React, to the low-level code that controls hardware IO, open source opens up a vast new range of possibilities for artists, both formally and conceptually. Its wide adoption in the creative community provides a counterbalance to the “secret sauce” of ‘moats’ and ‘gatekeepers’ -- the commercialization of both technology and of art -- and cebrates the intellectual commons.
 
 ## Wall labels
 For each artwork, james needs at least one repo to link to...
@@ -55,7 +55,7 @@ Derek [Processing repo](https://github.com/processing/processing4)
 
 **David Mordini** is an artist who lives and works in the Washington Metropolitan Area. He received his BFA from the Corcoran College of Art and Design in 1995. Mordini’s work was originally selected as part of the permanent collection of the Corcoran Gallery of Art, and now is held in the permanent collection at American University. He has served on the boards of The Washington Project for the Arts and the Washington Sculptors Group. In 2015, Mordini co-founded Otis Street Arts Project, and is now its sole proprietor and director.
 
-**Derek Toomes** is an artist based in Greensboro and Raleigh, NC.  He is currently an Assistant Professor in the Department of Interior Architecture at the University of North Carolina at Greensboro.  Derek is drawn to the iconic imagery of popular culture, as he is equally interested our societal location as a culture inundated by imagery.
+**Derek Toomes** is an artist based in Greensboro and Raleigh, NC. He is currently an Assistant Professor in the Department of Interior Architecture at the University of North Carolina at Greensboro. Derek is drawn to the iconic imagery of popular culture, as he is equally interested our societal location as a culture inundated by imagery.
 
 
 ## James' loose crap
