@@ -1,4 +1,7 @@
 # GAI links
+## 25-04-19
+- [**Fineweb** Hugging Face's training data explained](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)
+
 ## 25-03-03
 - [**MusicGPT** local GUI of MusicGen](https://github.com/gabotechs/MusicGPT?tab=readme-ov-file)
 
