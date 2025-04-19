@@ -1,3 +1,7 @@
+https://github.com/comfyanonymous/ComfyUI
+
+python 3.13 is supported but using 3.12 is recommended because some custom nodes and their dependencies might not support it yet.
+
 LAUNCH ComfyUI:
 
 cd ComfyUI
