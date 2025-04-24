@@ -1,7 +1,10 @@
 # GAI links
 
+## 25-04-24
+- [Huggingface **inference-playground**](https://huggingface.co/spaces/huggingface/inference-playground)
+
 ## 25-04-21
-- [**Tiktokenizer,** toll for translataing natural language to tokens](https://tiktokenizer.vercel.app/)
+- [**Tiktokenizer,** tool for translataing natural language to tokens](https://tiktokenizer.vercel.app/)
 
 ## 25-04-19
 - [**FineWeb** Hugging Face's training data explained](https://huggingface.co/spaces/HuggingFaceFW/blogpost-fineweb-v1)
