@@ -279,6 +279,20 @@ Thus, RVQ provides a method to achieve more efficient and precise data represent
 
 **Self-Attention** - A mechanism where each part of an input sequence interacts with all other parts to understand dependencies, used widely in transformers. (see Transformer.)
 
+**SFT, or Supervised Fine-Tuning,** - is a process in the development of machine learning models, particularly natural language processing models like those in the GPT series. After an initial pre-training phase, where a model learns patterns in data through unsupervised learning, it often undergoes further fine-tuning. This involves supervised fine-tuning, where the model is trained with labeled datasets for specific tasks.
+
+### Key Aspects of SFT:
+
+1. **Purpose**: The goal of supervised fine-tuning is to refine and enhance the model's performance on specific tasks by providing it with more targeted examples. This helps align the model closer to desired outputs.
+
+2. **Data**: During SFT, the model is exposed to datasets where each input is paired with a labeled response or output. These datasets help the model understand how to map inputs to correct outputs more accurately.
+
+3. **Applications**: It's often used to adapt a general-purpose language model to perform specific tasks, such as sentiment analysis, translation, or other specific language understanding tasks.
+
+4. **Benefits**: Fine-tuning helps improve the model's accuracy, reliability, and performance on specialized tasks by reducing overfitting on general data patterns not relevant to the task at hand.
+
+Supervised fine-tuning is essential in making a broadly trained AI model more adept at handling specific, practical language tasks, enhancing its utility in real-world applications.
+
 ## T
 **Temperature** - In the context of generative AI, temperature is a parameter that controls the randomness and creativity of the model’s responses. Lower temperature values (close to 0) make the model more deterministic and focused, often leading to precise and conservative outputs as it favors the most probable or predictable choices. Higher temperature values (approaching 1 or above) introduce more randomness, enabling the model to explore a wider range of possible words or phrases, which can lead to more creative, varied, or unexpected responses. For example, a higher temperature might be used for tasks requiring originality, like storytelling, while a lower temperature might be preferred for factual tasks, like answering technical questions. Adjusting temperature helps tailor the model’s behavior to suit different use cases, balancing between coherence and creativity.
 
