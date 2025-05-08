@@ -301,15 +301,21 @@ Supervised fine-tuning is essential in making a broadly trained AI model more ad
 **Tokenization** - The process of splitting text into smaller units, or tokens, for a model to process.
 
 Audio data is tokenized by breaking down the audio waveform into small, manageable segments or features that can be processed by a model. This often involves:
+
 1.	Segmenting the Audio: The continuous audio signal is split into short, fixed-length time frames (typically a few milliseconds each), capturing local patterns and fluctuations in sound.
+
 2.	Extracting Features: For each frame, features like Mel-frequency cepstral coefficients (MFCCs), spectrogram values, or log-Mel spectrograms are extracted. These features represent the audio’s frequency and intensity over time, creating a structured, numerical representation that retains meaningful information.
+
 3.	Encoding as Tokens: Each frame or feature vector becomes a “token” that the model processes sequentially, similar to how text is tokenized into words or subwords.
 
 This approach allows models to understand patterns in audio, such as phonemes in speech, which can then be used for tasks like speech recognition, synthesis, or classification.
 
 Images are tokenized by dividing them into smaller, structured units that a model can process in sequence. Common methods include:
+
 1.	Dividing into Patches: The image is split into small, fixed-size patches (e.g., 16x16 pixels), treating each patch as a single token. This approach is used in models like Vision Transformers (ViTs), where each patch represents a distinct part of the image and is embedded as a vector.
+
 2.	Flattening Pixels or Using Grids: In some cases, each pixel or a grid of pixels is treated as an individual token, especially for detailed image analysis. Each pixel or grid region’s RGB or grayscale values form a feature vector, creating a structured representation.
+
 3.	Applying Feature Extraction: Convolutional neural networks (CNNs) or other feature extractors can convert image regions into high-level feature vectors, which can be tokenized as representations of shapes, textures, or edges.
 
 Tokenizing images in this way allows models to process visual information systematically, enabling tasks like image recognition, segmentation, and generation by understanding patterns within and between image regions.
@@ -317,13 +323,21 @@ Tokenizing images in this way allows models to process visual information system
 **Training** (in Generative AI) is the process of teaching a model to generate new data by learning patterns and features from a given dataset. During training, the model processes input data, adjusts its internal parameters, and minimizes error using optimization techniques (like gradient descent) to improve its ability to recreate or extend patterns in the data. This involves feeding the model large datasets and iterating over them multiple times so it can learn underlying structures and relationships. The result is a model that can generate new, similar data, whether it’s images, text, or other forms of content, based on the learned patterns.
 
 Here are some best practices for gathering high-quality training data for machine learning models:
+
 1.	Ensure Diversity and Representativeness: Include a wide range of examples that represent all relevant demographics, use cases, and scenarios to prevent biases and enhance model generalization. For example, if training a language model, gather data from various sources, dialects, and languages to capture diverse linguistic patterns.
+
 2.	Data Quality and Accuracy: Use reliable sources and verify the accuracy of your data to ensure the model learns correct information. Avoid using noisy or poorly labeled data, as this can degrade model performance. Cleaning and preprocessing data to remove inconsistencies, duplicates, and errors are essential steps.
+
 3.	Ethical and Privacy Compliance: Adhere to ethical guidelines and legal standards (e.g., GDPR) when collecting data, especially if it includes personal or sensitive information. Anonymize and secure data wherever possible to protect individual privacy.
+
 4.	Balance Across Categories: Strive for balanced data across relevant categories to prevent the model from being skewed toward overrepresented groups. For example, in a sentiment analysis model, ensure equal representation of positive, neutral, and negative sentiments to avoid a bias in predictions.
+
 5.	Labeling Consistency: Use consistent and accurate labeling practices, ideally with multiple labelers for quality assurance. Implement a standardized guideline for labelers to minimize subjectivity and discrepancies.
+
 6.	Use Real-World Data: When possible, gather data that closely resembles the scenarios in which the model will be used. This will help the model learn relevant patterns and perform effectively in practical applications.
+
 7.	Maintain Transparency and Documentation: Document the data collection process, including the sources, any preprocessing steps, and the rationale behind the selection criteria. This transparency aids in understanding any limitations or biases in the data and allows for informed adjustments later.
+
 8.	Data Augmentation: To increase dataset diversity and quantity, consider data augmentation techniques, such as generating slight variations in the data (e.g., flipping images, paraphrasing sentences) to improve model robustness without collecting entirely new data.
 
 **Transfer learning** - the technique where a model developed for a particular task is reused as the starting point for a model on a second task. This is particularly useful in generative AI, where creating complex models from scratch requires significant computational resources and large amounts of data.

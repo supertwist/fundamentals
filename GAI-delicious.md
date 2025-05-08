@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-05-08
+- [Best open source **txt2video** list](https://blog.segmind.com/best-open-source-text-to-video-ai-models/)
+
 ## 25-04-24
 - [Huggingface **inference-playground**](https://huggingface.co/spaces/huggingface/inference-playground)
 
