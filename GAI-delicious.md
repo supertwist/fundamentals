@@ -1,5 +1,9 @@
 # GAI links
 
+## 25-06-15
+- [Stability **Cascade**](https://stability.ai/news/introducing-stable-cascade)
+- [ComfyUI **desktop**](https://www.comfy.org/)
+
 ## 25-05-08
 - [Best open source **txt2video** list](https://blog.segmind.com/best-open-source-text-to-video-ai-models/)
 
