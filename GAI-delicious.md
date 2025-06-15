@@ -3,6 +3,7 @@
 ## 25-06-15
 - [Stability **Cascade**](https://stability.ai/news/introducing-stable-cascade)
 - [ComfyUI **desktop**](https://www.comfy.org/)
+- [**CosyVoive** voice cloning?](https://github.com/AIFSH/CosyVoice-ComfyUI)
 
 ## 25-05-08
 - [Best open source **txt2video** list](https://blog.segmind.com/best-open-source-text-to-video-ai-models/)
