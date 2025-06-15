@@ -1,3 +1,8 @@
+ACTIVATE venv
+james@JAMESs-MacBook-Pro SANDBOX % python3 -m venv sandbox-env
+james@JAMESs-MacBook-Pro SANDBOX % source sandbox-env/bin/activate
+deactivate
+
 [ComfyUI](https://github.com/comfyanonymous/ComfyUI)
 
 python 3.13 is supported but using **3.12 is recommended** because some custom nodes and their dependencies might not support it yet.
@@ -7,7 +12,6 @@ LAUNCH ComfyUI:
 cd ComfyUI
 
 PYTORCH_ENABLE_MPS_FALLBACK=1, python3 main.py --force-fp16
-
 QUIT
 ctrl-z to end
 ctrl-c to stop server [then re-start python]
