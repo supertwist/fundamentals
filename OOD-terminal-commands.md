@@ -1,6 +1,6 @@
 # Terminal commands for ComfyUI on OOD
 
-## When setting up ComfyUI for the **first time,**
+## When setting up ComfyUI for the *first time..*
 
 First, load Anaconda (an interface for running Python code) and GIT (a tool for using shared code repositories, AKA 'repos'.)
 
@@ -36,6 +36,6 @@ And **finally,** we'll launch ComfyUI:
 
 ...And you are off to the races.
 
-## **After** you've set up ComfyUI...
+## *After* you've set up ComfyUI...
 
 *Coming soon...*
