@@ -3,6 +3,7 @@
 ## 25-06-22
 - [**Hunyuan3d** info](https://docs.comfy.org/tutorials/3d/hunyuan3D-2)
 - [**Hunyuan** repo](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)
+- [**Useful .STL repar tool** handy fot Hunyuan output](https://www.formware.co/onlinestlrepair)
 
 ## 25-06-15
 - [Stability **Cascade**](https://stability.ai/news/introducing-stable-cascade)
