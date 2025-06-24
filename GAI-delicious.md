@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-06-14
+- [Another **voiceclone** workflow for ComfyUI](https://github.com/VrchStudio/comfyui-web-viewer/blob/main/example_workflows/example_web_viewer_005_audio_web_viewer_f5_tts.json)
+
 ## 25-06-22
 - [**Hunyuan3d** info](https://docs.comfy.org/tutorials/3d/hunyuan3D-2)
 - [**Hunyuan** repo](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)
