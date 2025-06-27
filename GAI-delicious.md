@@ -1,5 +1,10 @@
 # GAI links
 
+## 25-06-27
+- [**description** of CosyVoice](https://www.runcomfy.com/comfyui-nodes/CosyVoice-ComfyUI)
+- [more recent, using **F5-TTS**](https://stable-diffusion-art.com/clone-your-voice-using-ai/)
+- [F5-TTS on **GitHub**](https://github.com/niknah/ComfyUI-F5-TTS)
+
 ## 25-06-14
 - [Another **voiceclone** workflow for ComfyUI](https://github.com/VrchStudio/comfyui-web-viewer/blob/main/example_workflows/example_web_viewer_005_audio_web_viewer_f5_tts.json)
 
