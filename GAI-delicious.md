@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-06-30
+- [NYT **illustrator** discusses AI](https://www.nytimes.com/interactive/2025/06/23/magazine/ai-art-artists-illustrator.html)
+
 ## 25-06-27
 - [**description** of CosyVoice](https://www.runcomfy.com/comfyui-nodes/CosyVoice-ComfyUI)
 - [more recent, using **F5-TTS**](https://stable-diffusion-art.com/clone-your-voice-using-ai/)
