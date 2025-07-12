@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-07-12
+- [NYT on **griefbots**](https://www.nytimes.com/2025/07/10/style/00death-spiritualism-talking-to-dead.html)
+
 ## 25-06-30
 - [NYT **illustrator** discusses AI](https://www.nytimes.com/interactive/2025/06/23/magazine/ai-art-artists-illustrator.html)
 
