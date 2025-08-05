@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-08-05
+- [ComfyUI **API** example](https://github.com/comfyanonymous/ComfyUI/blob/master/script_examples/basic_api_example.py)
+
 ## 25-07-12
 - [NYT on **griefbots**](https://www.nytimes.com/2025/07/10/style/00death-spiritualism-talking-to-dead.html)
 
