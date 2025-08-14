@@ -64,6 +64,20 @@ Addressing catastrophic forgetting is crucial for developing robust and capable 
 
 Overall, checkpoints are critical for managing the training lifecycle of a model efficiently and effectively.
 
+**Classifier-free guidance (CFG)** is a technique used in diffusion models to enhance the quality of generated images. This approach is particularly useful in generative models, such as those used for image synthesis. Here's a basic explanation of how it works:
+
+1. **Diffusion Models**: These models generate images by iteratively refining random noise into a structured image. The process is guided by a learned model that predicts what the image should look like at each step.
+
+2. **Guidance**: In the context of diffusion models, guidance helps in steering the generative process towards more desirable outputs. Classifier-free guidance specifically refers to a method where the guidance does not rely on an explicit classifier but uses intrinsic properties of the model.
+
+3. **Latent Conditioning**: With classifier-free guidance, the model is conditioned not only on a noise vector but optionally on a conditioning input (such as class labels or other relevant data). This helps guide the diffusion process to generate images that adhere more closely to the desired outcome.
+
+4. **Trade-off Parameter**: The guidance process often involves a trade-off parameter that balances the influence of the conditioning data against the inherent randomness of the noise process. Adjusting this parameter allows for manipulation of how close the output is to the conditioning input.
+
+5. **Outcome**: By using classifier-free guidance, diffusion models can produce higher-quality images that are more consistent with the intended characteristics (like specific styles or objects) without needing a separate classifier model to steer the generation.
+
+Classifier-free guidance is valued for its simplicity and effectiveness in generating detailed and coherent images using diffusion models, making it a powerful tool in generative artificial intelligence tasks.
+
 **CLIP**, which stands for Contrastive Language–Image Pretraining, is a model developed by OpenAI that plays a significant role in the context of generative AI. It is designed to understand and associate images and text in a way that allows for more advanced image and language processing tasks. CLIP is capable of performing zero-shot learning, meaning it can make predictions on tasks without direct prior examples, simply by understanding the context and relationships from the vast amount of data it was trained on.
 
 In terms of functionality, CLIP works by learning visual concepts from natural language supervision. During training, it aligns images with corresponding textual descriptions, effectively creating a shared understanding or embedding space where both images and text can coexist. This capability makes CLIP particularly useful in tasks that require an understanding of visual and linguistic information simultaneously, such as image captioning, visual search, and integrated text-to-image generation.
