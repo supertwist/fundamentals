@@ -78,11 +78,63 @@ Overall, checkpoints are critical for managing the training lifecycle of a model
 
 Classifier-free guidance is valued for its simplicity and effectiveness in generating detailed and coherent images using diffusion models, making it a powerful tool in generative artificial intelligence tasks.
 
+What “CFG” (classifier‑free guidance) does, in plain language**
+
+Imagine you have two artists working together:
+
+1. **The “un‑guided” artist** – follows the model’s own guess about what the picture should look like, based purely on the random noise it sees.
+2. **The “guided” artist** – also looks at the text prompt (or whatever condition you gave) and tries hard to make the picture match that prompt.
+
+The CFG value tells the system **how much weight to give to the guided artist versus the un‑guided one**.
+
+| CFG value | What the model does | Visible effect on the picture |
+|-----------|---------------------|-------------------------------|
+| **≈ 1** (or a little above) | Mostly listens to the un‑guided guess; the prompt only nudges the result a little. | The image may be softer, more “generic,” and sometimes drifts away from the exact prompt details. |
+| **2 – 5** (common range) | Blends the two artists, giving a noticeable boost to the prompt‑following side. | The picture follows the prompt much more closely—objects, colors, and composition line up with what you asked for, while still keeping natural‑looking detail. |
+| **> 5** (very strong guidance) | The guided artist dominates; the model aggressively forces the image to match the prompt. | The result can look “over‑styled” or “over‑sharpened.” You get the right objects, but textures may look artificial, edges may be too crisp, and subtle realism can disappear. |
+| **< 1** (rare) | The model actually *subtracts* guidance, making the output deliberately less like the prompt. | The image becomes more random, dream‑like, or abstract. |
+
+**Bottom line:**
+- **Higher CFG → stronger adherence to the prompt, but risk of losing natural detail.**
+- **Lower CFG → more creative freedom and realism, but the prompt may be ignored.**
+
+Choosing a CFG in the 2‑5 range usually gives a good balance between “looks good” and “matches what you asked for.”
+
 **CLIP**, which stands for Contrastive Language–Image Pretraining, is a model developed by OpenAI that plays a significant role in the context of generative AI. It is designed to understand and associate images and text in a way that allows for more advanced image and language processing tasks. CLIP is capable of performing zero-shot learning, meaning it can make predictions on tasks without direct prior examples, simply by understanding the context and relationships from the vast amount of data it was trained on.
 
 In terms of functionality, CLIP works by learning visual concepts from natural language supervision. During training, it aligns images with corresponding textual descriptions, effectively creating a shared understanding or embedding space where both images and text can coexist. This capability makes CLIP particularly useful in tasks that require an understanding of visual and linguistic information simultaneously, such as image captioning, visual search, and integrated text-to-image generation.
 
 In generative AI, CLIP is often paired with other models, such as DALL-E or other image generation models, to enhance the ability to generate or modify content based on textual input. By understanding the relationship between visuals and text, CLIP can guide these models to generate visual content that corresponds more accurately to specific textual prompts, improving the coherence and relevance of generated content.
+
+**CLIP Vision** is the image‑encoding backbone of OpenAI’s Contrastive Language‑Image Pre‑training (CLIP) model. It takes an input image, splits it into patches (or processes it through a convolutional stem), and feeds the resulting token sequence into a transformer encoder. The encoder produces a high‑dimensional embedding that captures visual semantics—objects, scenes, textures, and relationships—in a way that aligns with the textual embeddings produced by the companion CLIP text encoder. By training on billions of (image, caption) pairs with a contrastive loss, CLIP Vision learns to place matching images and texts close together in a shared latent space, enabling zero‑shot image classification, retrieval, and cross‑modal tasks without any task‑specific fine‑tuning.
+
+In a diffusion model the **“shift” value** is the deterministic component of the reverse‑diffusion step that moves a noisy sample \(x_t\) toward the estimated clean image.
+When the model predicts either the added noise \(\epsilon_\theta(x_t,t)\) or the denoised latent \(\hat{x}_0\), the reverse transition is written as a Gaussian
+
+\[
+p_\theta(x_{t-1}\!\mid\!x_t) = \mathcal{N}\!\bigl(x_{t-1};\;\underbrace{\text{shift}}_{\mu_\theta(x_t,t)},\;\sigma_t^2 I\bigr),
+\]
+
+where the **shift** (the mean \(\mu_\theta\)) is a weighted combination of the current state \(x_t\) and the model’s prediction, typically
+
+\[
+\text{shift}= \frac{1}{\sqrt{\alpha_t}}\Bigl(x_t - \frac{\beta_t}{\sqrt{1-\bar\alpha_t}}\;\epsilon_\theta(x_t,t)\Bigr)
+\quad\text{or}\quad
+\text{shift}= \sqrt{\bar\alpha_{t-1}}\;\hat{x}_0 + \sqrt{1-\bar\alpha_{t-1}}\;\epsilon,
+\]
+
+with \(\alpha_t,\beta_t\) coming from the noise schedule.
+Thus the shift tells the sampler **how far to “push” the sample toward the data manifold** at each timestep, while the remaining variance term adds the stochastic noise required for the diffusion process.
+
+Think of a diffusion model as a painter who first splatters a canvas with random brush‑strokes (noise) and then, step by step, wipes away some of that mess to reveal the picture underneath.
+The *shift* value is the amount of “wipe” the painter applies at each step. It tells the model how far to move the current noisy picture toward the clean image it thinks should be there.
+
+**What you actually see**
+
+- **Small shift (tiny wipe)** – The model only makes a slight adjustment each step, so the final picture looks fuzzy, blurry, or still contains remnants of the original noise. The image may be less sharp and may retain odd speckles or ghosted textures.
+- **Large shift (big wipe)** – The model pulls the noisy canvas strongly toward the predicted clean image. The result is a clearer, more defined picture with crisp edges and less leftover grain. However, if the shift is too aggressive the painter can over‑correct, causing the image to lose subtle details or to look “over‑processed” (flat colors, loss of fine texture).
+
+In short, the shift controls how aggressively the model cleans up the noise. Adjusting it changes the balance between a dreamy, noisy look and a sharp, clean output.
 
 **Context Window** - The context window in generative AI refers to the maximum amount of text or data that a model can process at once when generating or analyzing content. Essentially, it defines how much information the model can “see” in a single pass, which affects its ability to understand and produce coherent responses based on previous parts of the text. For instance, if a model has a context window of 4,000 tokens, it can only consider the last 4,000 tokens as context for any response. A smaller context window limits the model’s ability to maintain consistency over long pieces of text, while a larger context window allows it to handle complex, multi-turn dialogues or lengthy documents without losing track of relevant details. Increasing the context window enhances the model’s performance on tasks requiring extensive contextual understanding, such as summarizing long articles or engaging in extended conversations.
 
