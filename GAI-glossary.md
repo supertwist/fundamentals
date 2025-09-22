@@ -101,6 +101,21 @@ The prompt size, on the other hand, refers specifically to the portion of the co
 
 **Diffusion Model** - A type of generative model that learns to reverse a noise process to generate new data, often used for image synthesis.
 
+Diffusion models are a class of generative machine‑learning models that create data (e.g., images, audio, or text) by gradually transforming simple random noise into a structured sample. They operate in two complementary phases:
+
+1. **Forward (diffusion) process** – Starting from a real data point, the model repeatedly adds small amounts of Gaussian noise over many timesteps until the data is indistinguishable from pure noise. This process is analytically tractable and defines a known probability distribution at each step.
+
+2. **Reverse (denoising) process** – A neural network is trained to predict and remove the added noise at each timestep, effectively learning the conditional distribution \(p(x_{t-1}\,|\,x_t)\). During generation, the model starts from pure noise and iteratively applies the learned denoising steps, reconstructing a realistic sample.
+
+Key characteristics:
+
+- **Probabilistic formulation** – The model learns a tractable variational lower bound on the data likelihood, allowing principled training.
+- **High-quality generation** – Recent diffusion models (e.g., DALL‑E 2, Imagen, Stable Diffusion) produce images that rival or surpass GANs in fidelity and diversity.
+- **Flexibility** – By conditioning the denoising network on text, class labels, or other modalities, diffusion models can perform guided synthesis, in‑painting, super‑resolution, and more.
+- **Iterative refinement** – Generation requires many steps (often 50–1000), but recent research (e.g., DDIM, accelerated samplers) reduces this to a few dozen steps with little loss in quality.
+
+In summary, diffusion models frame generation as a learned reverse‑diffusion of noise, combining strong theoretical foundations with state‑of‑the‑art results across multiple media types.
+
 ## E
 **Embedding** - The representation of words, sentences, or other data types as vectors, enabling a model to process text in numerical form.
 
@@ -410,6 +425,28 @@ Transformers revolutionized how we handle sequential data, especially text, by f
 
 ## V
 **Variational Autoencoder (VAE)** - A generative model that encodes data to a lower-dimensional space and decodes it, allowing the generation of new data instances that resemble the training data.
+
+What a Variational Auto‑Encoder (VAE) does when it receives a prompt
+
+A VAE is fundamentally an **encoder ↔ decoder** pair trained with a probabilistic loss (the ELBO).
+When you give it a *prompt*—for example, a piece of text, a sketch, a partially‑filled image, or any other conditioning signal—the VAE processes it in roughly the following steps:
+
+| Step | What Happens | Why It Matters |
+|------|--------------|----------------|
+| **1. Conditioning (optional)** | The prompt is first transformed (e.g., embedded with a language model, passed through a small CNN, or concatenated with a learned embedding) so that the encoder and decoder can “see” it. | This tells the VAE *what* kind of data you are interested in generating or reconstructing. |
+| **2. Encoding** | The encoder network consumes the prompt (or the prompt‑plus‑input data) and produces two vectors: a mean **μ** and a log‑variance **log σ²** for each latent dimension. | These parameters define a Gaussian posterior **q(z | x, prompt)** that captures the uncertainty about the hidden representation. |
+| **3. Re‑parameterization** | A random sample **ε ∼ 𝒩(0, I)** is drawn and combined with the encoder outputs: <br> **z = μ + σ · ε** (where σ = exp(0.5 · log σ²)). | This trick makes the sampling step differentiable, allowing the whole model to be trained end‑to‑end. |
+| **4. Decoding (generation)** | The decoder receives the latent sample **z** (often concatenated with the prompt’s conditioning vector) and produces an output distribution **p(x̂ | z, prompt)**. For images this might be a pixel‑wise Gaussian; for text a categorical distribution over tokens. | The decoder translates the compact latent code back into the original data space, guided by the prompt. |
+| **5. Sampling / Reconstruction** | - **Reconstruction mode**: If you supplied a full input (e.g., an image) together with a prompt, the decoder’s most likely output **x̂** is taken as the reconstruction. <br> - **Generation mode**: If you only gave a prompt, the encoder may be bypassed; you simply sample **z ∼ 𝒩(0, I)** (or from a learned prior) and let the decoder generate a new sample conditioned on the prompt. | In reconstruction you get a denoised version of the original; in generation you obtain a novel piece of data that respects the prompt’s constraints. |
+| **6. Loss (training only)** | The model is trained to minimise the ELBO: <br> **L = reconstruction loss + KL( q(z|x,prompt) ‖ p(z) )**. | The reconstruction term forces fidelity to the input, while the KL term regularises the latent space, keeping it close to the prior and enabling smooth sampling. |
+
+#### In a nutshell
+- **Prompt → Conditioning vector** (optional)
+- **Encoder → μ, σ** (posterior over latents)
+- **Re‑parameterization → z** (sampled latent)
+- **Decoder + Prompt → output** (reconstruction or new generation)
+
+Because the latent space is learned to be continuous and roughly Gaussian, you can also *interpolate* between prompts, *edit* a prompt and see gradual changes in the output, or *sample* many diverse results from the same prompt by drawing different **z** values. This makes VAEs especially useful for tasks like **guided image synthesis, text‑to‑image generation, style transfer, and semi‑supervised learning**.
 
 ## Z
 **Zero-Shot Learning** - When a model performs a task without being explicitly trained on it by leveraging general understanding from diverse training data.
