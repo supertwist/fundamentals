@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-09-23
+- [CosyVoice **repo**](https://github.com/FunAudioLLM/CosyVoice)
+
 ## 25-08-05
 - [ComfyUI **API** example](https://github.com/comfyanonymous/ComfyUI/blob/master/script_examples/basic_api_example.py)
 
