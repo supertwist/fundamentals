@@ -1,5 +1,8 @@
 # GAI links
 
+## 25-09-27
+- [ComfyUI-**VoxCPM**](https://github.com/wildminder/ComfyUI-VoxCPM)
+
 ## 25-09-23
 - [CosyVoice **repo**](https://github.com/FunAudioLLM/CosyVoice)
 
