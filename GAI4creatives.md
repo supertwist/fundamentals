@@ -69,7 +69,12 @@ using GAI tools to design/build things
   - BOX for output?
 - SSO login
 
-### would a dedicated Grace Hopper node be sufficient for a class of 30 students? How do we test? Cost? (My recollection is about $12-15K)
+### would a dedicated Grace Hopper node be sufficient for a class of 30 students? How do we test? Cost? (My recollection is about $40K)
+- no...
+- assume 32 concurrent users (espedcially during class, then assume 12 hours per week per 32 users.)
+- is there a cluster that can support that? Cerberus?
+- talk to Glen: update the HPC website with current info, tutorials, etc - host on github rather than wordpress?
+- potential teaching partners - JP?
 
 ---
 ## Why run our own services locally?
