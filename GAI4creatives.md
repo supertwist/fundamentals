@@ -85,4 +85,4 @@ using GAI tools to design/build things
 ## Why run our own services locally?
 - expose more parameters
 - students don't bear cost of services like ChatGPT, RunwayML, etc
-- students don't need powerful laptops or storage (precessing on the HPS, and store to BOX)
+- students don't need powerful laptops or storage (processing on the HPC via OOD interface)
