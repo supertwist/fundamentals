@@ -26,6 +26,8 @@ from mathematicians/cs that walks through
 ### 2 - The School Board Seminar:
 - main question: how do we teach (train) our AI children?
 - survey existing training sets
+- open source models?
+- can we build our own model?
 - build small training sets: what kinds of results do we get? can we go beyond style
 - an assignment: run a prompt against 4 GAIs with known, different training sets. Print and analyse the results
 - philosophy component in the readings?
