@@ -7,7 +7,7 @@ Idea: rather than one teacher per class of 15 students, two teachers for a class
 
 Idea: each class has a primary question, and students respond to that question through a final project. Final project culminates in 2 outputs:
 - a public exhibition
-- each students project code and output examples are archived in a public GitHub repo
+- each student's project code and output examples are archived in a public GitHub repo
 
 ### 1 - Under the Hood Lectures:
 from mathematicians/cs that walks through
@@ -18,6 +18,9 @@ from mathematicians/cs that walks through
 - explain the math/code to demystify the results
 - introduce tool sets, local and online, compare exposed parameters
 - big project: run run a prompt against 4 GAIs, assess differences in results (attrection to variations in prompt engineering towards a stated goal)
+- multimodal AI
+- agents
+- compare encoding/decoding for text, images, audio, video, etc
 
 ### 2 - The School Board Seminar:
 - main question: how do we teach (train) our AI children?
@@ -72,9 +75,10 @@ using GAI tools to design/build things
 ### would a dedicated Grace Hopper node be sufficient for a class of 30 students? How do we test? Cost? (My recollection is about $40K)
 - no...
 - assume 32 concurrent users (espedcially during class, then assume 12 hours per week per 32 users.)
+- automate usage tracking/reporting
 - is there a cluster that can support that? Cerberus?
 - talk to Glen: update the HPC website with current info, tutorials, etc - host on github rather than wordpress?
-- potential teaching partners - JP?
+- potential teaching partners - JP? Robert Pless?
 
 ---
 ## Why run our own services locally?
