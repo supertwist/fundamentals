@@ -21,6 +21,7 @@ from mathematicians/cs that walks through
 - multimodal AI
 - agents
 - compare encoding/decoding for text, images, audio, video, etc
+- [Github for Poets](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6ZF9C0YMKuns9sLDzK6zoiV)
 
 ### 2 - The School Board Seminar:
 - main question: how do we teach (train) our AI children?
