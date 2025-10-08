@@ -1,10 +1,13 @@
 # GAI links
 
+## 25-10-08
+- [**Paris,** an opem sorce diddusion model](https://huggingface.co/bageldotcom/paris)
+
 ## 25-09-27
 - [ComfyUI-**VoxCPM**](https://github.com/wildminder/ComfyUI-VoxCPM)
 
 ## 25-09-23
-- [CosyVoice **repo**](https://github.com/FunAudioLLM/CosyVoice)
+- [CosyVoice **repo,** notewothrthy because it appears to be open source](https://github.com/FunAudioLLM/CosyVoice)
 
 ## 25-08-05
 - [ComfyUI **API** example](https://github.com/comfyanonymous/ComfyUI/blob/master/script_examples/basic_api_example.py)
