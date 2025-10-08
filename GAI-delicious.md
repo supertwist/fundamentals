@@ -1,7 +1,7 @@
 # GAI links
 
 ## 25-10-08
-- [**Paris,** an opem sorce diddusion model](https://huggingface.co/bageldotcom/paris)
+- [**Paris,** an opem sorce diddusion model](https://huggingface.co/bageldotcom/paris) on HuggingFace and [**repo**](https://github.com/bageldotcom/paris/blob/main/README.md)
 
 ## 25-09-27
 - [ComfyUI-**VoxCPM**](https://github.com/wildminder/ComfyUI-VoxCPM)
