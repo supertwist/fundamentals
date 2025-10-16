@@ -82,6 +82,7 @@ using GAI tools to design/build things
 - is there a cluster that can support that? Cerberus?
 - talk to Glen: update the HPC website with current info, tutorials, etc - host on github rather than wordpress?
 - potential teaching partners - JP? Robert Pless?
+- [NVIDIA DGX Spark](https://marketplace.nvidia.com/en-us/developer/dgx-spark/) A Grace Blackwell AI Supercomputer on your desk. $3,999.00
 
 ---
 ## Why run our own services locally?
