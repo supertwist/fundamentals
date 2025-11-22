@@ -1,7 +1,7 @@
 # GAI links
 
 ## 25-11-22
-- [**Nano Bannana Pro** for deeper graphic design context](https://www.nano-banana-ai.studio/)
+- [**Nano Bannana Pro** for deeper graphic design context](https://gemini.google/overview/image-generation/)
 
 ## 25-10-08
 - [**Paris,** an open source diffusion model](https://huggingface.co/bageldotcom/paris) on HuggingFace and [**repo**](https://github.com/bageldotcom/paris/blob/main/README.md)
