@@ -5,6 +5,8 @@
 
 - [**QWEN** models built by Alibaba](https://huggingface.co/Qwen) including QWEN image which might be a good alternative to Nano Bannana.
 
+- [Sample QWEN **workflow** in ComfyUI](https://docs.comfy.org/tutorials/image/qwen/qwen-image)
+
 ## 25-10-08
 - [**Paris,** an open source diffusion model](https://huggingface.co/bageldotcom/paris) on HuggingFace and [**repo**](https://github.com/bageldotcom/paris/blob/main/README.md)
 
