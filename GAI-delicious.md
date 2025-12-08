@@ -3,6 +3,8 @@
 ## 25-11-22
 - [**Nano Bannana Pro** for deeper graphic design context](https://gemini.google/overview/image-generation/)
 
+- [and](https://deepmind.google/models/gemini-image/pro/)
+
 - [**QWEN** models built by Alibaba](https://huggingface.co/Qwen) including QWEN image which might be a good alternative to Nano Bannana.
 
 - [Sample QWEN **workflow** in ComfyUI](https://docs.comfy.org/tutorials/image/qwen/qwen-image)
