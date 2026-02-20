@@ -1,5 +1,8 @@
 # GAI links
 
+## 26-02-20
+- [NVIDIA **workstation** of my dreams](https://www.nvidia.com/en-us/products/workstations/dgx-spark/)
+
 ## 25-11-22
 - [**Nano Bannana Pro** for deeper graphic design context](https://gemini.google/overview/image-generation/)
 
